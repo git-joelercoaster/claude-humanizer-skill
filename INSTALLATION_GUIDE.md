@@ -1,198 +1,46 @@
-# Humanizer Skill v3.0.0 — Installation Guide
+# Installation
 
-Choose your installation method based on your workflow.
+## Claude.ai Skills
 
----
+1. Download and extract the repo (or clone it).
+2. Claude.ai → Settings → Skills → add a skill.
+3. Point it at `SKILL.md`.
+4. Use it: `Humanize this email: [text]`
 
-## Option A: Claude.ai Skills (Easiest)
+## Paste into a chat
 
-**Prerequisites:** Claude.ai account
+Open `SKILL.md`, copy the whole thing, paste it into a Claude conversation. Works in any chat, no setup. You'll need to re-paste in new conversations.
 
-**Steps:**
+## Local reference
 
-1. Download `humanizer-skill-v3.zip`
-2. Extract the folder to your computer
-3. Go to **Claude.ai** → **Settings** → **Skills** (or **Custom Skills**)
-4. Select **Add Skill** or **Upload Skill**
-5. Point to the `SKILL.md` file from the extracted folder
-6. Confirm installation
+Clone it. Everything is plain Markdown with no dependencies — read the genre profile for whatever you're writing and use it as an editorial checklist by hand.
 
-**Use immediately:**
 ```
-Humanize this [genre]: [your text]
+git clone https://github.com/USERNAME/humanizer-skill.git
 ```
 
----
+## Which files do I actually need?
 
-## Option B: Copy/Paste into Chat
+`SKILL.md` alone is enough to use the skill — it contains the workflow, the pattern quick-reference, the voice calibration framework, and the false-positive list.
 
-**Prerequisites:** Claude.ai or Claude app, any chat
+Add the one genre profile you write most (`genres/`) and you've got the full value for your use case.
 
-**Steps:**
+The `references/` folder is for going deeper: the complete 20+ pattern library, the four reverse modes, structural beat analysis, and every worked example.
 
-1. Open `SKILL.md` in a text editor
-2. Copy the entire contents
-3. Start a new chat in Claude.ai or the Claude app
-4. Paste the skill content into the chat
-5. Save the chat (or pin it for reference)
+## First 30 minutes
 
-**Use:**
-```
-I saved your skill guide. Now I can:
-[Your text to humanize]
-```
+1. Read `SKILL.md` (15 min).
+2. Read the genre profile matching what you write (10 min).
+3. Run simple mode on something you wrote recently (5 min).
 
----
-
-## Option C: Save to Claude Memory (Claude.ai Pro)
-
-**Prerequisites:** Claude.ai Pro subscription
-
-**Steps:**
-
-1. Open `SKILL.md` in a text editor
-2. Copy the entire contents
-3. Start a new chat in Claude.ai
-4. Tell Claude: `"Save this skill guide to my memory: [paste SKILL.md]"`
-5. Claude will confirm it's saved
-6. Future chats will have access automatically
-
-**Use in any future chat:**
-```
-Using my humanizer skill, can you humanize this [genre]: [text]?
-```
-
----
-
-## Option D: Local Reference (Terminal/IDE)
-
-**Prerequisites:** Text editor, terminal
-
-**Steps:**
-
-1. Extract `humanizer-skill-v3.zip`
-2. Save the folder in your workspace
-3. Reference the files as needed in your workflow
-4. Open `SKILL.md` as your reference guide
-5. Open genre profiles as needed
-
-**Use:**
-- Reference the patterns in `genres/` while editing your own work
-- Use reverse modes from `genres/reverse-modes.md` for tone adjustment
-- Check examples in `examples/` for guidance
-
----
-
-## Which Files Do You Need?
-
-### Minimum Setup (Just Get Started)
-- `SKILL.md` — The master guide
-- `genres/` folder — Genre profiles you actually use
-
-### Recommended (Full Power)
-- Everything above, plus:
-- `genres/test-results.md` — See examples of humanization in action
-- `genres/reverse-modes.md` — Adjust tone after humanizing
-
-### Complete (Deep Learning)
-- All files
-- Study the examples to understand the process
-- Reference patterns as you learn
-
----
-
-## First Steps After Installation
-
-1. **Read the master guide** — `SKILL.md` (15 min)
-2. **Pick your genre** — Read the relevant profile (15 min)
-3. **Try simple mode** — "Humanize this text" with a sample (5 min)
-4. **Try interactive mode** — "Walk me through the changes" (10 min)
-5. **Use on real work** — Apply to your actual writing
-
----
+Then try interactive mode once. It's slower, but it's how you stop needing the tool.
 
 ## Troubleshooting
 
-**Q: The skill isn't showing up in my Claude.ai profile**
-- Refresh your browser
-- Make sure you're logged in
-- Try Option B or C instead
+**Skill isn't showing up in Claude.ai** — refresh, confirm you're signed in, or fall back to pasting `SKILL.md` into a chat.
 
-**Q: I pasted the skill but it's not working**
-- Make sure the entire `SKILL.md` was pasted (all text)
-- Start fresh with a new chat and paste again
-- Try saving it as a memory (Option C) if you're a Pro user
+**Pasted it but nothing happens** — make sure the entire file got pasted, frontmatter included, and start a fresh conversation.
 
-**Q: I don't know which genre profile I need**
-- Technical writing? → `genres/technical.md`
-- Email? → `genres/email.md`
-- LinkedIn? → `genres/social.md`
-- Not sure? → Read `SKILL.md` intro for genre table
+**Output sounds flat and generic** — that's over-humanizing. Use voice-matched mode with a sample of your own writing, or check the false-positive list in `SKILL.md`. Stripping every pattern strips your voice too.
 
-**Q: I want to customize the skill**
-- All files are plain Markdown
-- Edit them in any text editor
-- All rules and patterns are documented and changeable
-
----
-
-## Getting Help
-
-If something isn't working:
-
-1. Check the genre profile for your writing type
-2. Review `test-results.md` for examples
-3. Try interactive mode to understand the process
-4. Reference `genres/patterns-extended.md` if a pattern isn't clear
-
----
-
-## Keeping It Updated
-
-This is version 3.0.0. If updates are released:
-
-1. Download the latest ZIP
-2. Extract to a new folder
-3. Compare any files you've customized
-4. Merge your changes into the new version
-
----
-
-## Next: Using the Skill
-
-Once installed, start with:
-
-**Simple mode:**
-```
-Humanize this [genre]:
-
-[Your text here]
-```
-
-**Voice-matched mode:**
-```
-Humanize this. Here's my voice sample:
-
-[A sample of your own writing]
-
-[Text to humanize]
-```
-
-**Interactive mode:**
-```
-I need help humanizing this. Walk me through the changes.
-
-[Your text]
-```
-
----
-
-## Questions?
-
-Refer to:
-- `SKILL.md` — All features explained
-- `genres/` — Specific rules by type
-- `test-results.md` — See it in action
-- `examples/` — Real before/afters
-
-Everything is documented. You've got this.
+**Not sure which genre** — read the genre table in `SKILL.md`. If it's still unclear, say what the writing is for and let the skill pick.

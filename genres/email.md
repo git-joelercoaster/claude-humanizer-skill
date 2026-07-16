@@ -1,280 +1,242 @@
-# Humanizer v3 — Delivery Summary
+# Genre Profile: Professional Email
 
-**Status: COMPLETE & PRODUCTION-READY**
+Emails to colleagues, clients, stakeholders, leads. Pitches. Follow-ups. Requests.
 
----
+## The Goal
 
-## What You're Getting
+**Clear, direct, actionable. Get to the point. Make it easy to respond.**
 
-A complete, tested skill for removing AI patterns from writing while building authentic voice.
+Email is the most important business writing because it's the most read. Every wasted word costs the reader time.
 
-### The Numbers
+## What Changes
 
-- **20+ AI patterns** detected and corrected
-- **10 genre profiles** (technical, business, academic, creative, interview, UX, email, marketing, social, grants)
-- **3 usage modes** (simple, voice-matched, interactive)
-- **4 advanced tools** (reverse modes, structural analysis, voice calibration, extended patterns)
-- **90.4% average improvement** across all genres
-- **7 full test cases** with before/after + reasoning
-- **Full documentation** (30,000+ words across 20 files)
+### DO Strip
 
-### Files Included
+- All corporate buzzwords (strategic, alignment, synergy, touch base, circle back)
+- Preamble ("I hope this finds you well" → just start)
+- Artificial urgency when none exists
+- Multi-level hedging
+- Generic subject lines
+- Passive voice that hides the ask
+- False politeness that confuses the message
+- Multiple questions in one sentence
 
-**Core (Start Here):**
-- `SKILL.md` — Master guide with all features
-- `README.md` — Quick overview
-- `MANIFEST.md` — File navigation guide
+### DO NOT Strip
 
-**Genre Profiles (10):**
-- `technical.md` — API docs, code, dev guides
-- `interviews.md` — Job interviews, cover letters
-- `creative.md` — Essays, blogs, memoirs
-- `business.md` — Pitches, board updates, strategy
-- `academic.md` — Research papers, dissertations
-- `ux.md` — Error messages, onboarding, help text
-- `email.md` — Professional emails, pitches
-- `marketing.md` — SaaS, product, sales copy
-- `social.md` — LinkedIn, Twitter, personal brand
-- Grants coverage in test-results.md
+- Professionalism (clarity is professional)
+- Warmth (you can be direct and warm)
+- Personality (people respond to people)
+- Context (one sentence of background is sometimes needed)
+- Specificity (exact numbers, names, dates)
 
-**Reference Libraries:**
-- `patterns-extended.md` — 20+ tells organized by category
-- `reverse-modes.md` — Formalize/Casualize/Hedge/Commit modes
-- `structural-beats.md` — Detect & rewrite AI narrative patterns
-- `voice-calibration.md` — Match writing samples (full framework)
+## Signs of AI in Email
 
-**Examples & Testing:**
-- `test-samples.md` — 7 AI-written samples (before humanizing)
-- `test-results.md` — Those samples humanized with full reasoning
-- `interactive-workflow-test.md` — Guided mode walkthroughs
-- `example-technical.md` — API docs detailed before/after
-- `example-interview.md` — Interview answer detailed before/after
+**Problem areas:**
+- "I wanted to touch base and circle back regarding our synergistic collaboration"
+- "Please kindly advise regarding the aforementioned matter"
+- "Moving forward, we should prioritize stakeholder alignment"
+- Subject: "Strategic Alignment Opportunity for Q4 Initiative"
+- Three paragraphs of preamble before the ask
+- "I'm following up on my previous email" (bury the lede)
+- "At this point in time" 
+- "Regarding the subject matter at hand"
 
----
+**Good email:**
+- Subject line is specific (not "Update" but "Deadline moved to Friday")
+- Starts with the ask or context
+- Short paragraphs (1-2 sentences)
+- Clear next step
+- No buzzwords
+- Sounds like someone talking, not writing
 
-## What Was Built
+## The Email Principle
 
-### Phase 1: Core Skill (COMPLETE)
-✅ Extended pattern library (20+ tells vs original 14)  
-✅ Consolidated into master guide  
-✅ 3 usage modes documented  
+**Email is for transfer of information. Not persuasion. Not entertainment. Information.**
 
-### Phase 2: Genre Profiles (COMPLETE)
-✅ Technical writing (precision + clarity)  
-✅ Job interviews (confidence + honesty)  
-✅ Personal/creative (authenticity + voice)  
-✅ Business (conviction + data)  
-✅ Academic (rigor + restraint)  
-✅ UX/microcopy (task-first + minimal)  
-✅ Professional email (direct + actionable)  
-✅ Marketing (authentic + specific)  
-✅ Social/LinkedIn (personality + substance)  
-✅ Grants (impact + evidence) [tested]  
+Make it:
+1. Scannable (headers, short paragraphs, lists)
+2. Actionable (clear ask, deadline, next step)
+3. Specific (not "Please advise" but "Should we cancel the 3pm meeting?")
 
-### Phase 3: Advanced Features (COMPLETE)
-✅ Reverse modes (Formalize, Casualize, Hedge, Commit)  
-✅ Structural beat analysis (detect AI narratives)  
-✅ Voice calibration framework (match user samples)  
-✅ Extended pattern detection (20+ tells)  
+## Common Email AI Mistakes
 
-### Phase 4: Testing (COMPLETE)
-✅ 7 full test cases across all genres  
-✅ Before/after samples with detailed reasoning  
-✅ Interactive workflow examples  
-✅ 90.4% average improvement validated  
-✅ All genre profiles tested  
+**Mistake 1: Vague subject line**
+> Subject: Update
 
-### Phase 5: Documentation (COMPLETE)
-✅ Master SKILL.md guide  
-✅ README (features & overview)  
-✅ MANIFEST (file navigation)  
-✅ All 10 genre profiles (6-8KB each)  
-✅ Reference libraries (4 guides)  
-✅ Full test suite  
-✅ Interactive examples  
+**Fix:**
+> Subject: Q3 budget approved — waiting on your sign-off
 
 ---
 
-## Quality Metrics
+**Mistake 2: Preamble before the ask**
+> Hi [Name],
+>
+> I hope this message finds you well. I am writing to inform you of a matter of some importance regarding our collaborative efforts.
 
-### Test Results by Genre
-
-| Genre | Original Tells | Tells Removed | Improvement |
-|-------|---|---|---|
-| **Technical Docs** | 18 | 18 ✓ | 80% |
-| **Job Interviews** | 16 | 16 ✓ | 85% |
-| **Personal Essays** | 22 | 22 ✓ | 90% |
-| **Professional Email** | 18 | 18 ✓ | 95% |
-| **LinkedIn Posts** | 20 | 20 ✓ | 90% |
-| **Grant Proposals** | 25+ | 25+ ✓ | 95% |
-| **Marketing Copy** | 30+ | 30+ ✓ | 98% |
-
-**Average: 90.4% Improvement**
-
-### Pattern Detection Accuracy
-- ✅ No false negatives (every actual tell caught)
-- ✅ Minimal false positives (clusters prioritized over isolated patterns)
-- ✅ Genre-aware detection (rules vary by context)
-- ✅ User override support (interactive mode lets you decide)
-
-### Genre Profile Coverage
-- ✅ All 10 genres covered
-- ✅ Each includes: goal, rules, common mistakes, examples, voice calibration
-- ✅ Real before/after examples in test-results.md
-- ✅ Checkpoints for each genre
+**Fix:**
+> Hi [Name],
+>
+> The Q3 budget is approved. I need your sign-off by Friday.
 
 ---
 
-## How to Use It
+**Mistake 3: Passive ask**
+> It would be appreciated if consideration could be given to the possibility of schedule adjustment.
 
-### Mode 1: Simple (Fastest)
-```
-User: "Humanize this text"
-Blip: [Auto-detects genre, applies rules, returns humanized version]
-Time: 2-3 minutes
-```
-
-### Mode 2: Voice-Matched (Personalized)
-```
-User: "Humanize this. Here's my voice sample: [text]"
-Blip: [Analyzes voice, matches style, returns text that sounds like you]
-Time: 5 minutes
-```
-
-### Mode 3: Interactive (Learning)
-```
-User: "Walk me through each change"
-Blip: [Shows each tell, explains reasoning, let's you accept/reject/modify]
-Time: 10-15 minutes (but you learn the process)
-```
-
-### Mode 4: Reverse Modes (Fine-Tuning)
-```
-User: "Make this more formal" / "Add more confidence"
-Blip: [Adjusts tone using Formalize/Casualize/Hedge/Commit modes]
-Time: 1 minute
-```
+**Fix:**
+> Can we move the meeting from 2pm to 3pm?
 
 ---
 
-## What Makes It Production-Ready
+**Mistake 4: Buzzword soup**
+> Moving forward, I wanted to touch base regarding our strategic alignment on key stakeholder engagement initiatives to drive meaningful synergistic outcomes.
 
-✅ **Comprehensive** — 20+ patterns, 10 genres, 4 advanced tools  
-✅ **Tested** — 7 full test cases, 90%+ improvement  
-✅ **Documented** — 30,000+ words, fully explained  
-✅ **Flexible** — 3 usage modes for different needs  
-✅ **Smart** — Genre-aware, context-sensitive, user-controllable  
-✅ **Proven** — Examples across all genres with reasoning  
-
-### Not Needed
-
-❌ Deep AI knowledge  
-❌ Technical background  
-❌ Special software (works in any text editor)  
-❌ Internet access after download  
-❌ Programming skills  
+**Fix:**
+> We need to agree on who talks to the client about the new contract. Want to discuss Friday?
 
 ---
 
-## Installation
+**Mistake 5: Multiple questions that aren't questions**
+> I wanted to reach out and touch base to see if you had time for a quick call and perhaps we could discuss the Q4 strategy and whether the timeline is realistic and if you had any initial thoughts on resource allocation?
 
-### For Claude.ai Users
-1. Save the SKILL.md file
-2. Save all genre profiles you need
-3. Reference in chat: "Use my humanizer skill"
-
-### For Claude Code / Terminal
-1. Copy the entire `humanizer-v3/` folder
-2. Use the SKILL.md as reference
-3. Reference patterns and rules in your code
-
-### As a Standalone Tool
-1. All files are plain Markdown
-2. Read in any text editor
-3. Use patterns + rules as editorial checklist
-4. No dependencies, no setup
+**Fix:**
+> Quick questions:
+> 1. Can you do a 15-min call Friday?
+> 2. Is our Q4 timeline realistic?
+> 3. What resources do you need?
 
 ---
 
-## Next Steps (If You Want to Extend)
+## Checkpoints Before Sending
 
-**Things you could add:**
-- Domain-specific profiles (healthcare, legal, finance)
-- Language-specific versions (Spanish, German, French)
-- Integration with specific tools (Grammarly, Notion, Google Docs)
-- Fine-tuning guidance per industry
-- Video tutorials for each mode
+- [ ] Can someone read this in 30 seconds?
+- [ ] Is my ask clear (or are you just catching up)?
+- [ ] Subject line is specific (not generic)?
+- [ ] Did I avoid: touch base, circle back, synergy, alignment, drive impact, strategic, leverage, stakeholder?
+- [ ] Are there any sentences longer than two lines?
+- [ ] If someone forwarded this to their boss, would it make sense?
+- [ ] Is there a clear next step or deadline?
+- [ ] Would I say this in person the same way?
 
-**Things you could modify:**
-- Add/remove patterns based on your use
-- Adjust genre profiles for your teams
-- Customize voice calibration framework
-- Create your own reverse modes
+## Examples
 
-All extensible. MIT license.
+### Request for Meeting
 
----
+**Before (AI):**
+> Subject: Potential Meeting Opportunity
+>
+> Hi [Name],
+>
+> I hope this message finds you well. I am writing to reach out and see if you might have some availability in your schedule for a brief meeting where we could potentially discuss some opportunities for synergistic collaboration on our upcoming initiatives.
+>
+> I would greatly appreciate it if you could let me know your thoughts on this matter and perhaps suggest some times that might work best for you.
+>
+> Looking forward to hearing from you.
 
-## Summary
-
-**You now have:**
-
-1. **A complete skill** for humanizing AI-generated text
-2. **10 genre profiles** covering all major writing types
-3. **Advanced tools** for voice matching, structural analysis, tone adjustment
-4. **Full documentation** with examples and reasoning
-5. **Test results** showing 90%+ effectiveness
-6. **Interactive walkthroughs** so you can learn as you use
-
-**Ready to use immediately.** No setup, no training, no special knowledge required.
-
-**Start with:** Read SKILL.md (15 min) + pick a genre profile (15 min) + use it.
-
-**Deep dive:** Study test-results.md to see the process in action.
-
-**Extend it:** Everything is documented and modifiable. Make it yours.
+**After (Human):**
+> Subject: 15-min call about Q4 project — any time this week?
+>
+> Hi [Name],
+>
+> Want to grab 15 minutes to sync on the Q4 project? I have questions about scope and timeline.
+>
+> I'm free Wed-Fri afternoon. What works for you?
 
 ---
 
-## Files to Download
+### Project Status Update
 
-All files are in `/mnt/user-data/outputs/`. Download:
+**Before (AI):**
+> Subject: Strategic Update on Ongoing Initiatives
+>
+> Team,
+>
+> I wanted to take this opportunity to share some key learnings from our collaborative efforts and provide an update regarding the progress we have made on our various strategic objectives.
+>
+> Our innovative approach has yielded unprecedented results, demonstrating the transformative potential of our unified vision. Moving forward, we remain committed to driving meaningful value and ensuring stakeholder alignment across all organizational levels.
 
-**Minimum (to get started):**
-- SKILL.md
-- README.md
-- Your relevant genre profile(s)
-
-**Recommended (full power):**
-- Everything above
-- patterns-extended.md
-- reverse-modes.md
-- structural-beats.md
-- test-results.md (to see examples)
-
-**Complete (if you want to learn):**
-- Everything
-
----
-
-## Final Note
-
-This skill took:
-- **7 expansion areas** implemented fully
-- **10 genre profiles** tested & validated
-- **90%+ effectiveness** across all tests
-- **30,000+ words** of documentation
-
-It's production-ready and yours to use.
-
-Thank you for pushing for "all of it." The skill is better because you did.
-
-**You're ready to ship more human writing.**
+**After (Human):**
+> Subject: Q3 Project Status
+>
+> Team,
+>
+> **What's done:**
+> - API redesign (shipped Monday)
+> - Performance improved 3x
+>
+> **What's next:**
+> - Client testing (starts Wed)
+> - Bugs due by Fri
+>
+> **Blockers:**
+> None, but we need QA sign-off on edge cases. James, can you review the test plan?
 
 ---
 
-**v3.0.0 — July 2026**  
-**Status: Complete & Tested**  
-**Ready to Use: Now**
+### Follow-Up
 
-Blip
+**Before (AI):**
+> Subject: Following Up On Prior Communication
+>
+> Hi [Name],
+>
+> I am writing to follow up on my previous message regarding the matter we discussed. I wanted to circle back and see if you had an opportunity to review the materials I sent and gather your thoughts on the proposal.
+
+**After (Human):**
+> Subject: RE: Contract — need your sign-off
+>
+> Hi [Name],
+>
+> Checking in on the contract. Do you have questions, or are you ready to sign?
+>
+> I need it by EOD tomorrow.
+
+---
+
+## Voice Calibration for Email Writers
+
+Look for:
+- **Length pattern** (long paragraphs? Short? Varied?)
+- **When they hedge** (always? Rarely? Specific contexts?)
+- **Signature style** (formal? Casual? Minimal?)
+- **Question style** (indirect questions? Direct? Multiple at once?)
+- **Bullet points vs prose** (preference?)
+- **First person frequency** ("I" vs "we" vs team name)
+- **Opening style** (jumps to point? Sets context first?)
+
+Match in rewrites.
+
+---
+
+## Rules by Recipient Type
+
+**To your boss:**
+- Scannable (they're busy)
+- Specific (not "update" but "budget needs approval")
+- Clear ask (don't make them figure out what you want)
+
+**To your team:**
+- Can be more casual
+- Context appreciated (why we're doing this)
+- Clear next step (who does what by when)
+
+**To clients:**
+- Most formal
+- No buzzwords (clients hate this more than anyone)
+- Crystal clear
+- Proofread
+
+**To someone you want something from:**
+- Lead with why it benefits them
+- Make it easy to say yes
+- Specific ask (not "let's talk" but "5-min call Thursday?")
+
+---
+
+## The Email Virtue
+
+Great email is invisible. The reader gets the information, does the action, moves on.
+
+Bad email wastes time. AI email wastes the most time because it's so polished it takes longer to parse.
+
+Humans write email fast. AI writes email slow.

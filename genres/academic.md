@@ -1,242 +1,188 @@
-# Genre Profile: Professional Email
+# Genre Profile: Academic & Research Writing
 
-Emails to colleagues, clients, stakeholders, leads. Pitches. Follow-ups. Requests.
+Lab reports. Research papers. Dissertations. Literature reviews. Academic abstracts. Scientific manuscripts.
 
 ## The Goal
 
-**Clear, direct, actionable. Get to the point. Make it easy to respond.**
+**Rigor without melodrama. Neutral stance, precise language. Let the data speak.**
 
-Email is the most important business writing because it's the most read. Every wasted word costs the reader time.
+Academic writing should be formal, but not inflated. Hedging is appropriate (science is uncertain), but not excessive. Significance is stated carefully, not puffed.
 
 ## What Changes
 
 ### DO Strip
 
-- All corporate buzzwords (strategic, alignment, synergy, touch base, circle back)
-- Preamble ("I hope this finds you well" → just start)
-- Artificial urgency when none exists
-- Multi-level hedging
-- Generic subject lines
-- Passive voice that hides the ask
-- False politeness that confuses the message
-- Multiple questions in one sentence
+- Significance puffing ("groundbreaking," "revolutionary," "unprecedented")
+- Fake urgency (nothing in academia needs to be marketed as critical)
+- Cargo-cult buzzwords (synergy, paradigm, ecosystem)
+- Theatrical openings (fake candor, dramatic setup)
+- Unsubstantiated claims about broader impact
+- Emotionally manipulative language
+- Vague attributions ("experts say," "research shows" without citing)
+- Manufactured drama in methods
 
 ### DO NOT Strip
 
-- Professionalism (clarity is professional)
-- Warmth (you can be direct and warm)
-- Personality (people respond to people)
-- Context (one sentence of background is sometimes needed)
-- Specificity (exact numbers, names, dates)
+- Formal tone (this is appropriate)
+- Third-person perspective (if that's the convention)
+- Hedging language appropriate to the field (may, might, could, suggests)
+- Passive voice in methods sections (acceptable and appropriate)
+- Technical vocabulary (essential)
+- Careful attribution and citations
+- Uncertainty acknowledgment ("limitations include...")
+- Precise qualifications ("in this population," "under these conditions")
 
-## Signs of AI in Email
+## Signs of AI in Academic Writing
 
 **Problem areas:**
-- "I wanted to touch base and circle back regarding our synergistic collaboration"
-- "Please kindly advise regarding the aforementioned matter"
-- "Moving forward, we should prioritize stakeholder alignment"
-- Subject: "Strategic Alignment Opportunity for Q4 Initiative"
-- Three paragraphs of preamble before the ask
-- "I'm following up on my previous email" (bury the lede)
-- "At this point in time" 
-- "Regarding the subject matter at hand"
+- "This groundbreaking study represents a paradigm shift" ← just describe what you did
+- "These transformative findings suggest unprecedented implications" ← what did you find?
+- "The remarkable results indicate the revolutionary potential of..." ← state the results
+- Opening with dramatic narrative instead of research question
+- Claiming broader significance than the evidence supports
+- Hedging so much that no actual claim is made
+- Passive voice overdone (when active would be clearer)
 
-**Good email:**
-- Subject line is specific (not "Update" but "Deadline moved to Friday")
-- Starts with the ask or context
-- Short paragraphs (1-2 sentences)
-- Clear next step
-- No buzzwords
-- Sounds like someone talking, not writing
+**Good academic prose:**
+- Clear research question upfront
+- Methods stated plainly
+- Results reported with appropriate caveats
+- Discussion acknowledges limitations
+- Claims are proportionate to evidence
+- Citations are specific and accurate
+- Uncertainty is stated clearly, not hidden
 
-## The Email Principle
+## The Academic Trap
 
-**Email is for transfer of information. Not persuasion. Not entertainment. Information.**
+AI struggles with academic writing because the discipline requires:
+1. **Hedging when uncertain** (appropriate)
+2. **NOT overstating significance** (restrained)
 
-Make it:
-1. Scannable (headers, short paragraphs, lists)
-2. Actionable (clear ask, deadline, next step)
-3. Specific (not "Please advise" but "Should we cancel the 3pm meeting?")
+AI does the opposite:
+1. **Hedges on trivial points** (apologetic)
+2. **Overstates significance** (melodramatic)
 
-## Common Email AI Mistakes
+Good academic writing: confident in methods, humble about implications.
 
-**Mistake 1: Vague subject line**
-> Subject: Update
+## Common Academic AI Mistakes
+
+**Mistake 1: Inflated abstract**
+> "This groundbreaking study represents a transformative investigation into the unprecedented implications of novel phenomena. Results indicate revolutionary potential for paradigm-shifting interventions."
 
 **Fix:**
-> Subject: Q3 budget approved — waiting on your sign-off
+> "We examined the effect of X on Y in 200 participants. X increased Y by 15% (p<.05). These results suggest X could be useful for treating Z, though longitudinal studies are needed."
 
 ---
 
-**Mistake 2: Preamble before the ask**
-> Hi [Name],
->
-> I hope this message finds you well. I am writing to inform you of a matter of some importance regarding our collaborative efforts.
+**Mistake 2: Fake drama in intro**
+> "For centuries, scientists have grappled with the enigmatic question of whether X could possibly affect Y. In a stunning revelation, our work finally unlocks this mystery."
 
 **Fix:**
-> Hi [Name],
->
-> The Q3 budget is approved. I need your sign-off by Friday.
+> "Previous work suggests X may affect Y. This study tests that hypothesis directly."
 
 ---
 
-**Mistake 3: Passive ask**
-> It would be appreciated if consideration could be given to the possibility of schedule adjustment.
+**Mistake 3: Hedging that eliminates the claim**
+> "One might potentially argue that the results could conceivably suggest that X might possibly influence Y, though further research would arguably be warranted to confirm any putative relationships."
 
 **Fix:**
-> Can we move the meeting from 2pm to 3pm?
+> "X appears to influence Y. We note the following limitations: [list]. Larger samples would strengthen this conclusion."
 
 ---
 
-**Mistake 4: Buzzword soup**
-> Moving forward, I wanted to touch base regarding our strategic alignment on key stakeholder engagement initiatives to drive meaningful synergistic outcomes.
+**Mistake 4: Overstating implications**
+> "These results could revolutionize how we understand human consciousness and potentially transform society."
 
 **Fix:**
-> We need to agree on who talks to the client about the new contract. Want to discuss Friday?
+> "These results suggest a possible mechanism for X. They don't address Y or Z, which remain unclear."
 
 ---
 
-**Mistake 5: Multiple questions that aren't questions**
-> I wanted to reach out and touch base to see if you had time for a quick call and perhaps we could discuss the Q4 strategy and whether the timeline is realistic and if you had any initial thoughts on resource allocation?
+**Mistake 5: Melodramatic methods**
+> "Through a rigorous and innovative investigation involving cutting-edge methodologies, we seamlessly integrated advanced protocols to unlock unprecedented insights."
 
 **Fix:**
-> Quick questions:
-> 1. Can you do a 15-min call Friday?
-> 2. Is our Q4 timeline realistic?
-> 3. What resources do you need?
+> "We used [method] to measure [variable] across [N] participants. Data were analyzed with [statistical test]."
 
----
+## Checkpoints Before Finalizing
 
-## Checkpoints Before Sending
-
-- [ ] Can someone read this in 30 seconds?
-- [ ] Is my ask clear (or are you just catching up)?
-- [ ] Subject line is specific (not generic)?
-- [ ] Did I avoid: touch base, circle back, synergy, alignment, drive impact, strategic, leverage, stakeholder?
-- [ ] Are there any sentences longer than two lines?
-- [ ] If someone forwarded this to their boss, would it make sense?
-- [ ] Is there a clear next step or deadline?
-- [ ] Would I say this in person the same way?
+- [ ] Is the research question clear in the first paragraph?
+- [ ] Are methods described in sufficient detail to replicate?
+- [ ] Are results stated before interpretation?
+- [ ] Did I avoid all significance puffing (groundbreaking, revolutionary, unprecedented)?
+- [ ] Are limitations acknowledged?
+- [ ] Are claims proportionate to evidence?
+- [ ] Did I avoid: paradigm, transformative, breakthrough, game-changing, unlock?
+- [ ] Can I support every claim with data or citation?
+- [ ] Would someone in my field think this is appropriately hedged (not over, not under)?
 
 ## Examples
 
-### Request for Meeting
+### Research Abstract
 
 **Before (AI):**
-> Subject: Potential Meeting Opportunity
->
-> Hi [Name],
->
-> I hope this message finds you well. I am writing to reach out and see if you might have some availability in your schedule for a brief meeting where we could potentially discuss some opportunities for synergistic collaboration on our upcoming initiatives.
->
-> I would greatly appreciate it if you could let me know your thoughts on this matter and perhaps suggest some times that might work best for you.
->
-> Looking forward to hearing from you.
+> This groundbreaking study investigates the transformative effects of cognitive behavioral therapy on anxiety disorders. Through innovative methodology and rigorous analysis, we reveal unprecedented findings that suggest revolutionary implications for mental health treatment. Results indicate that CBT represents a paradigm shift in therapeutic intervention. These groundbreaking findings have profound implications for how we understand and treat anxiety across diverse populations.
 
 **After (Human):**
-> Subject: 15-min call about Q4 project — any time this week?
->
-> Hi [Name],
->
-> Want to grab 15 minutes to sync on the Q4 project? I have questions about scope and timeline.
->
-> I'm free Wed-Fri afternoon. What works for you?
+> We compared cognitive behavioral therapy (CBT) to standard care for patients with generalized anxiety disorder (N=120). CBT participants showed greater anxiety reduction (d=0.68) at 8 weeks and sustained improvement at 6-month follow-up. Effect sizes were comparable to previous trials. Limitations: single-site study, limited diversity in sample. These results support CBT as an effective treatment, consistent with prior meta-analyses.
 
 ---
 
-### Project Status Update
+### Methods Section
 
 **Before (AI):**
-> Subject: Strategic Update on Ongoing Initiatives
->
-> Team,
->
-> I wanted to take this opportunity to share some key learnings from our collaborative efforts and provide an update regarding the progress we have made on our various strategic objectives.
->
-> Our innovative approach has yielded unprecedented results, demonstrating the transformative potential of our unified vision. Moving forward, we remain committed to driving meaningful value and ensuring stakeholder alignment across all organizational levels.
+> Utilizing cutting-edge methodologies and innovative approaches, we seamlessly integrated advanced protocols to facilitate comprehensive data collection across multiple dimensions. Our revolutionary framework unlocked unprecedented insights through synergistic collaboration and strategic optimization of analytical procedures.
 
 **After (Human):**
-> Subject: Q3 Project Status
->
-> Team,
->
-> **What's done:**
-> - API redesign (shipped Monday)
-> - Performance improved 3x
->
-> **What's next:**
-> - Client testing (starts Wed)
-> - Bugs due by Fri
->
-> **Blockers:**
-> None, but we need QA sign-off on edge cases. James, can you review the test plan?
+> We recruited 150 participants from three community health centers. Inclusion criteria: age 18-65, English-speaking, no prior CBT. Exclusion: active psychosis, substance dependence. Participants completed the GAD-7 at baseline and weekly for 8 weeks. Sessions were recorded and coded for adherence using the Cognitive Therapy Scale. We used mixed-effects linear regression to model change over time, with site as a random effect.
 
 ---
 
-### Follow-Up
+### Discussion Limitations
 
 **Before (AI):**
-> Subject: Following Up On Prior Communication
->
-> Hi [Name],
->
-> I am writing to follow up on my previous message regarding the matter we discussed. I wanted to circle back and see if you had an opportunity to review the materials I sent and gather your thoughts on the proposal.
+> While the implications of this work are far-reaching and transformative, further research would be beneficial to explore additional dimensions.
 
 **After (Human):**
-> Subject: RE: Contract — need your sign-off
->
-> Hi [Name],
->
-> Checking in on the contract. Do you have questions, or are you ready to sign?
->
-> I need it by EOD tomorrow.
+> Our sample was predominantly White and educated, limiting generalizability to other populations. We had no active control (e.g., placebo therapy), so we cannot rule out expectancy effects. Follow-up ended at 6 months; longer-term outcomes are unknown. The anxiety measure relies on self-report, which may be biased by treatment expectations.
 
 ---
 
-## Voice Calibration for Email Writers
+## Voice Calibration for Academic Writers
+
+If analyzing a researcher's sample:
 
 Look for:
-- **Length pattern** (long paragraphs? Short? Varied?)
-- **When they hedge** (always? Rarely? Specific contexts?)
-- **Signature style** (formal? Casual? Minimal?)
-- **Question style** (indirect questions? Direct? Multiple at once?)
-- **Bullet points vs prose** (preference?)
-- **First person frequency** ("I" vs "we" vs team name)
-- **Opening style** (jumps to point? Sets context first?)
+- **Hedging style** (when do they hedge? Over? Under?)
+- **Use of passive voice** (heavy? Light? Selective?)
+- **Significance language** (careful? Inflated? Restrained?)
+- **How they discuss limitations** (thorough? Dismissive? Balanced?)
+- **Data presentation** (tables? In text? Heavy on stats? Light?)
+- **Citation style** (frequent? Sparse? Integrated or clunky?)
+- **Sentence structure** (formal and long? Short and punchy? Varied?)
 
-Match in rewrites.
+**Example calibration:**
+> "This researcher: hedges appropriately (says 'suggests' and 'may' when data warrant it), uses passive voice in methods (standard), careful with significance claims, thorough on limitations, presents data in tables, citations are frequent and smoothly integrated, sentences are formal and long but readable."
 
----
-
-## Rules by Recipient Type
-
-**To your boss:**
-- Scannable (they're busy)
-- Specific (not "update" but "budget needs approval")
-- Clear ask (don't make them figure out what you want)
-
-**To your team:**
-- Can be more casual
-- Context appreciated (why we're doing this)
-- Clear next step (who does what by when)
-
-**To clients:**
-- Most formal
-- No buzzwords (clients hate this more than anyone)
-- Crystal clear
-- Proofread
-
-**To someone you want something from:**
-- Lead with why it benefits them
-- Make it easy to say yes
-- Specific ask (not "let's talk" but "5-min call Thursday?")
+Match this in rewrites.
 
 ---
 
-## The Email Virtue
+## When Academic Formality Should Remain
 
-Great email is invisible. The reader gets the information, does the action, moves on.
+Some academic contexts require full formality:
+- **Submitted manuscripts** (journals have standards)
+- **Dissertations** (institutional requirements)
+- **Grant proposals** (formal is expected)
 
-Bad email wastes time. AI email wastes the most time because it's so polished it takes longer to parse.
+For conference papers, working papers, or presentations to colleagues: You have more freedom. Some of the best academic writing is more casual.
 
-Humans write email fast. AI writes email slow.
+---
+
+## The Academic Virtue
+
+Good academic writing is humble about what it found and careful about what it claims. That's not weakness — it's strength.
+
+AI makes academic writing sound important. Humans make it sound true.
+
+Truth matters more.

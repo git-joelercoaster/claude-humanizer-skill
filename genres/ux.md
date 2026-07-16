@@ -1,356 +1,276 @@
-# Humanizer v3: Complete Skill Package
+# Genre Profile: UX Copy & Microcopy
 
-**Remove AI patterns. Add authentic voice. Genre-aware. Interactive. Reversible.**
+Error messages. Onboarding flows. Help text. Button labels. Empty states. Confirmation dialogs. Instruction text. CTAs.
 
----
+## The Goal
 
-## What's Included
+**Task-first. User-focused. Minimal. The text should be invisible.**
 
-### Core Skill
-- **SKILL.md** — Master guide with all features and workflows
+UX copy isn't marketing. It's a tool. The best UX copy gets out of the way and lets users do what they need to do.
 
-### Genre Profiles (10 guides)
-1. **technical.md** — API docs, system architecture, dev guides, lab reports
-2. **interviews.md** — Job interview answers, cover letters, STAR responses
-3. **creative.md** — Blog posts, essays, memoirs, personal narratives
-4. **business.md** — Board updates, pitch decks, strategy docs, investor pitches
-5. **academic.md** — Research papers, dissertations, lab reports, abstracts
-6. **ux.md** — Error messages, onboarding, help text, microcopy
-7. **email.md** — Professional emails, pitches, outreach (examples in test-results.md)
-8. **marketing.md** — SaaS copy, product marketing, persuasive writing (examples in test-results.md)
-9. **grants.md** — Grant proposals, funding requests (tested in test-results.md)
-10. **social.md** — LinkedIn posts, social media, personal brand (tested in test-results.md)
+## What Changes
 
-### Reference Guides
-- **patterns-extended.md** — 20+ AI tells organized by category (comprehensive detection library)
-- **reverse-modes.md** — Formalize, Casualize, Hedge, Commit modes with examples
-- **structural-beats.md** — Detect and rewrite AI narrative patterns
-- **voice-calibration.md** — How to analyze and match user voice samples
+### DO Strip
 
-### Examples & Testing
-- **examples/example-technical.md** — API error handling before/after
-- **examples/example-interview.md** — Interview answer before/after
-- **interactive-workflow-test.md** — Guided mode walkthroughs (technical + personal essay)
-- **test-samples.md** — 7 AI-written samples (technical, interview, personal essay, email, LinkedIn, grant, marketing)
-- **test-results.md** — Humanized versions of all tests with full reasoning (90%+ improvement across genres)
+- Marketing language (transformative, revolutionary, empower)
+- Fake friendliness that masks poor UX
+- Excessive personality (emoji, exclamation points, puns)
+- Jargon that users don't understand
+- Multiple questions in succession
+- Anything that makes users *read* instead of *act*
+- Apologies that don't fix the problem
+- Vague language (try again, something went wrong)
 
----
+### DO NOT Strip
 
-## How to Use This Skill
+- Warmth (you can be friendly without being fake)
+- Personality, if it serves clarity (e.g., Mailchimp's tone is casual because it fits their brand, AND it makes copy clearer)
+- Emoji, if it clarifies (a single ✓ on a success state, or 🔒 on a password field, is clear)
+- Conversational tone (users respond better to "We need..." than "A valid email address is required")
+- Specific guidance (tell users exactly what to do)
+- Humor, if it serves the task (never pure entertainment)
 
-### Mode 1: Simple Mode
-> "Humanize this text"
+## Signs of AI in UX Copy
 
-The skill will:
-1. Auto-detect the genre
-2. Apply the genre profile rules
-3. Remove AI patterns using the extended library
-4. Return humanized text
+**Problem areas:**
+- "Welcome to our innovative platform designed to transform your experience" ← delete this entirely
+- "Please enter a valid email address to seamlessly continue" ← "Email address required"
+- "Congratulations! You've successfully created an account, marking a pivotal moment in your journey with us" ← "Account created"
+- "Something unexpected occurred" ← what exactly failed?
+- Buttons labeled "Submit Your Information" ← "Continue" or "Save"
+- Help text that explains the system instead of helping the user
+- Multiple sentences when one would do
+- Cutesy language that delays task completion
 
-**Best for:** Quick polish, batch humanization, obvious AI text
+**Good UX copy:**
+- Tells the user what to do
+- Explains *why* if needed
+- Gets out of the way
+- Specific, not vague
+- No more than one sentence (usually)
+- Assumes the user knows what they want
 
----
+## The UX Principle
 
-### Mode 2: Voice-Matched Mode
-> "Humanize this. Here's my voice sample: [text or file path]"
+Every word a user has to read is a word that delays task completion. Good UX copy is invisible. Users notice only when something's confusing.
 
-The skill will:
-1. Read your voice sample
-2. Build a voice profile (sentence rhythm, vocabulary, tone)
-3. Detect genre
-4. Humanize using both genre + voice profiles
-5. Return text that sounds like *you*
+AI tries to make UX copy *visible* — to impress, to reassure, to establish a relationship. Users don't care. They want to complete the task.
 
-**Best for:** Personal branding, consistent voice across documents, matching your style
+## Common UX AI Mistakes
 
----
+**Mistake 1: Marketing in the UI**
+> "Welcome! You're about to embark on an exciting journey to unlock your full potential with our transformative platform."
 
-### Mode 3: Guided/Interactive Mode
-> "Walk me through each change. I want to understand the choices."
-
-The skill will:
-1. Show each AI tell
-2. Explain why it's AI-coded
-3. Propose a humanized version
-4. Show reasoning
-5. Let you accept, reject, or modify each change
-6. Build the final version collaboratively
-
-**Best for:** Learning what AI patterns are, understanding the process, building intuition
+**Fix:**
+> [Delete entirely. Get to the form.]
 
 ---
 
-### Mode 4: Reverse Modes (Fine-Tuning)
-After humanizing, you can adjust tone:
+**Mistake 2: Vague error**
+> "Something went wrong. Please try again."
 
-> "Make this more formal" → **Formalize mode**
-> "Make this more confident" → **Commit mode**
-> "Add more hedging" → **Hedge mode**
-> "Make this casual" → **Casualize mode**
+**Fix:**
+> "Your password must be at least 8 characters."
 
----
+or
 
-## What This Skill Does
-
-### Detects & Removes (20+ patterns)
-
-**Significance Inflation**
-- "stands as a testament to" → removed
-- "paradigm shift" → specific
-- "represents a pivotal moment" → just the fact
-
-**Fake Urgency**
-- "absolutely critical" → just "essential"
-- "cannot be overstated" → removed
-- Manufactured stakes → realistic framing
-
-**Cargo-Cult Buzzwords**
-- "synergy, leverage, unlock, seamless" → actual verbs
-- "stakeholder alignment" → "the team agrees"
-- "drive meaningful impact" → specific outcome
-
-**Hedging Overload**
-- "it's worth noting that" → removed
-- "one could arguably suggest" → clearer statement
-- Reduces excessive qualifications
-
-**Fake Candor**
-- "let me tell you" → just say it
-- "honestly?" → removed
-- Theatrical pauses → direct
-
-**Staccato Drama**
-- Three short sentences in a row → varied rhythm
-- Manufactured emphasis → earned emphasis
-
-**Rule-of-Three Rhythms**
-- Three virtues listed → broken up or reduced
-- Three reasons that all mean the same thing → just the best one
-
-**Structural Patterns**
-- Setup-problem-solution loops → varied structure
-- Forced resolutions → ambiguity when honest
-- Fake tension-release → real stakes
-
-**And 12+ more patterns** (see patterns-extended.md for full list)
-
-### Adds
-
-- **Specificity** — Data points, numbers, examples, concrete details
-- **Honesty** — Uncertainty when real, limitations, mixed feelings
-- **Personality** — Your voice, not generic corporate/marketing tone
-- **Clarity** — Direct language, short sentences, no preamble
-- **Authority** — Confidence backed by reasoning, not rhetoric
+> "This email is already registered. Sign in instead?"
 
 ---
 
-## Quality Metrics from Testing
+**Mistake 3: Explaining the system instead of helping**
+> "Our advanced verification algorithm requires at least 24 hours to process your request in order to optimize system stability and security."
 
-| Genre | AI Tells Removed | Improvement |
-|-------|------------------|-------------|
-| Technical Docs | 18/18 ✓ | 80% |
-| Job Interviews | 16/16 ✓ | 85% |
-| Personal Essays | 22/22 ✓ | 90% |
-| Professional Email | 18/18 ✓ | 95% |
-| LinkedIn Posts | 20/20 ✓ | 90% |
-| Grant Proposals | 25+/25+ ✓ | 95% |
-| Marketing Copy | 30+/30+ ✓ | 98% |
-
-**Average Across All Genres: 90.4% Improvement**
-
-All test samples, before/afters, and reasoning available in test-results.md.
+**Fix:**
+> "We'll verify your identity in 1 business day."
 
 ---
 
-## Installation & Setup
+**Mistake 4: Excessive friendliness**
+> "Whoopsie! 🙈 Something didn't work out like we planned. Our team is probably sleeping now, but try again when the sun comes up! ☀️"
 
-### For Claude.ai Users
-1. Copy the SKILL.md file and all genre profiles into a new skill folder
-2. Save as a skill in your profile
-3. Use like any other skill: mention text you want to humanize
+**Fix:**
+> "Error. Our servers are down. We'll be back in 30 minutes."
 
-### For Command Line / Programmatic Use
-The skill can be integrated into:
-- Writing tools (Grammarly competitor)
-- Content platforms (email, social, docs)
-- Dev workflows (API documentation)
-- Product teams (UX copy review)
+(or, if you know the issue:)
 
-Use the patterns and logic from this skill in any language/framework.
+> "Your file is too large (max 25MB). Try compressing it."
 
 ---
 
-## What NOT to Humanize
+**Mistake 5: Fake apology**
+> "We sincerely apologize for the inconvenience this error has caused. We are deeply committed to resolving this issue and ensuring your complete satisfaction."
 
-This skill is for text that should sound human. Don't use it on:
+**Fix:**
+> "This payment method doesn't work. Try another card."
 
-- **Legal documents** (need precise formal language)
-- **Regulatory compliance** (exact wording required)
-- **Financial filings** (must match standards)
-- **Formal reference material** (neutral tone is correct)
+(If you actually messed up:)
 
-When in doubt, ask: "Should this sound like a person? Or should it be formal/neutral?" If the latter, this skill may over-humanize.
-
----
-
-## Genre Quick Reference
-
-| Genre | Goal | Key Rules | Common Tells |
-|-------|------|-----------|--------------|
-| **Technical** | Precision + clarity | Keep jargon, remove buzzwords, no preamble | "cutting-edge," "seamlessly," "innovative" |
-| **Business** | Conviction + data | Confidence backed by facts, no hedging | "paradigm shift," "drive impact," vague claims |
-| **Academic** | Rigor + restraint | Careful claims, appropriate hedging, cite everything | "groundbreaking," "transformative," "unprecedented" |
-| **Creative** | Authenticity + voice | Ambiguity OK, specific details, mixed feelings | False epiphanies, unearned sentiment, neat endings |
-| **Interview** | Confidence + honesty | Own your wins, admit limits, specific examples | "passionate," "thought leader," self-deprecation |
-| **UX** | Task-first | Minimal text, specific guidance, user-focused | Marketing in UI, vague errors, fake friendliness |
-| **Email** | Direct requests | Clear asks, no jargon, scannable | Buzzwords, false urgency, vague subjects |
-| **Marketing** | Authentic enthusiasm | Details beat slogans, specific benefits, no FOMO | "revolutionary," "transform," fake scarcity |
-| **Grants** | Impact + evidence | Specific outcomes, data-backed, realistic | Melodrama, inflated significance, vague promises |
-| **Social** | Personality + substance | Honest reflection, avoid boilerplate, specific wins | Emoji abuse, motivational clichés, rule-of-three |
+> "Sorry, we deleted your data by mistake. It's being restored now. Should be back within 2 hours."
 
 ---
 
-## Advanced Features
+**Mistake 6: Button labels that don't say what they do**
+> "Let's Go" / "Submit Your Preference" / "Proceed"
 
-### Voice Matching
-Provide a writing sample (your own previous writing, an email you wrote, etc.). The skill analyzes:
-- Sentence length patterns
-- Word choice level
-- Paragraph structure
-- Punctuation habits
-- How you handle uncertainty
-- Tone and personality markers
+**Fix:**
+> "Create Account" / "Save Changes" / "Confirm Order"
 
-Then rewrites AI text to sound like you.
-
-### Interactive Workflow
-Walk through each change:
-- See the AI tell
-- Understand the reasoning
-- Accept / reject / modify
-- Learn as you go
-
-See interactive-workflow-test.md for examples.
-
-### Structural Beat Analysis
-Detect and break common AI narrative patterns:
-- Setup-problem-solution loops
-- Rule-of-three rhythms
-- Forced resolutions
-- Fake tension-release
-- Fake narrative symmetry
-
-Rewrite with varied structure that feels more human.
-
-### Reverse Modes
-Adjust tone *after* humanizing:
-- **Formalize** — Make more authoritative
-- **Casualize** — Make friendlier
-- **Hedge** — Add uncertainty
-- **Commit** — Remove hedging
+(Use the verb that describes the action.)
 
 ---
 
-## Examples to Study
+**Mistake 7: Help text that's too long**
+> "In order to successfully log in to your account, you will need to enter your username (or the email address you used when registering) along with your password in the fields below. This password is case-sensitive and must contain at least 8 characters, including one number and one special character."
 
-For each genre, see the corresponding example file:
-
-- Technical: API error handling guide (test-results.md)
-- Interview: Challenge overcome response (test-results.md + example-interview.md)
-- Personal: Morning routine essay (test-results.md)
-- Email: Team project kickoff (test-results.md)
-- LinkedIn: Shipped a feature (test-results.md)
-- Marketing: SaaS product (test-results.md)
-- Grant: Community health program (test-results.md)
-
-Each shows:
-- Original AI version
-- Identified tells
-- Humanized version
-- Full reasoning
-- What improved
+**Fix:**
+> "Email or username (case-sensitive)"
+> "Password (8+ characters, 1 number, 1 symbol)"
 
 ---
 
-## FAQ
+## UX Copy Hierarchy
 
-**Q: Will this make my writing sound unprofessional?**
-A: No. It removes AI patterns while preserving professionalism. Professional ≠ robotic.
+**Priority 1 (always clear):**
+- Error messages (what failed? why? what now?)
+- Confirmations (what did you just do?)
+- Required actions (what must the user do?)
 
-**Q: Can I use this on someone else's writing?**
-A: Yes, but better if you're working together (interactive mode). This is collaborative tool.
+**Priority 2 (be clear, can be brief):**
+- Empty states (what should they do now?)
+- Helper text (why are we asking?)
+- Warnings (what will happen?)
 
-**Q: What if my writing has some of these patterns naturally?**
-A: The skill is smart about context. Single tells are noise. Clusters are signals. And patterns can be intentional. Use interactive mode to decide.
+**Priority 3 (can be personality):**
+- Success states (affirm the win, briefly)
+- Onboarding (get them to the product, fast)
+- CTAs (be enthusiastic if the action is good)
 
-**Q: Does this guarantee my writing won't sound AI?**
-A: 90%+ of the time, yes. But context matters. A genius writer might write something that sounds like an AI pattern. The interactive mode helps you decide.
+**Priority 4 (minimize):**
+- Explanations of system behavior
+- Apologies (fix the problem first)
+- Marketing messages
 
-**Q: What if I want my writing to sound formal/corporate?**
-A: Use Formalize mode after humanizing. Or just don't humanize formal contexts. This skill is for writing that should sound human.
+## Checkpoints Before Launch
 
----
+- [ ] Can a user understand what to do in 3 seconds?
+- [ ] If there's an error, is it specific (not "Something went wrong")?
+- [ ] Are button labels verbs that describe the action?
+- [ ] Is the tone consistent (not cartoony in one place, robotic in another)?
+- [ ] Did I avoid: innovative, transform, empower, unlock, journey, seamless, cutting-edge?
+- [ ] Did I remove marketing language?
+- [ ] Is there anything here users don't need to read?
+- [ ] Would my 70-year-old mom understand this?
+- [ ] Does the tone match the situation (serious error → serious tone, onboarding → lighter)?
 
-## What This Replaces
+## Examples
 
-**Before:** Spending hours editing AI-generated text, unsure what sounds off
+### Onboarding Email
 
-**After:** 
-- Quick detection of what's AI-coded
-- Specific reasoning for each change
-- Genre-aware rewrites
-- Interactive help if you want it
-- Consistent voice across pieces
+**Before (AI):**
+> Welcome to the future! 🚀
+>
+> You're about to embark on a transformative journey with our innovative platform. We're thrilled to have you join our community of forward-thinking professionals.
+>
+> Get started by exploring these exciting features:
+> - Seamlessly integrate your data ✨
+> - Unlock powerful insights 💡
+> - Empower your team to drive impact 🔥
+>
+> Let's transform your business together!
 
----
-
-## Testing & Validation
-
-All patterns tested on 7 genres with before/after examples. Average improvement: 90.4%.
-
-See test-results.md for full methodology, all samples, and quantitative breakdown.
-
----
-
-## Version & Updates
-
-**v3.0.0** — Production release
-- 20+ pattern detection
-- 10 genre profiles
-- Interactive workflow
-- Reverse modes
-- Voice matching
-- 90%+ improvement across all genres
-
----
-
-## Support & Contribution
-
-This skill is open for feedback. If you find:
-- A pattern we missed
-- A genre profile that needs work
-- An interactive mode issue
-- An example that needs revision
-
-Let me know. Skill improves with use.
+**After (Human):**
+> Hi [Name],
+>
+> Your account is ready. Start here:
+> 1. Add your data (5 min) — connect your database
+> 2. Build your first report (10 min) — drag & drop interface
+> 3. Share with your team — invite up to 5 people on free tier
+>
+> Stuck? See the quick start guide or email help@example.com
 
 ---
 
-## License
+### Error Message
 
-MIT. Use freely. Modify freely. Share freely.
+**Before (AI):**
+> An unexpected error has occurred. We sincerely apologize for any inconvenience this may cause. Please try again later or contact our support team if the problem persists.
+
+**After (Human):**
+> We couldn't process your payment. Try these:
+> - Refresh and try again
+> - Use a different card
+> - Call us: 555-1234 (we'll help, 5 min)
 
 ---
 
-## Summary
+### Empty State
 
-This is a production-ready skill for removing AI patterns from any writing while preserving authentic voice and building confidence in your own words.
+**Before (AI):**
+> Congratulations on creating your account! Your journey toward success has begun. To unlock the full potential of our innovative platform, begin by creating your first project. This exciting step will empower you to transform your workflow and achieve unprecedented productivity.
 
-Three workflows:
-1. **Simple** — Auto-detect, humanize
-2. **Voice-matched** — Sound like you
-3. **Interactive** — Learn as you go
+**After (Human):**
+> No projects yet. Create one to get started. (Takes 2 minutes)
 
-90%+ effective across technical, business, academic, creative, interview, UX, email, marketing, grant, and social writing.
+---
 
-Ready to use. Ready to teach. Ready to improve writing that sounds like a real person.
+### Confirmation Dialog
+
+**Before (AI):**
+> Are you absolutely certain you wish to permanently delete this item? Please note that this action cannot be undone and will result in the irreversible removal of all associated data. We recommend proceeding with caution.
+
+**After (Human):**
+> Delete this project? This can't be undone.
+> [Cancel] [Delete]
+
+---
+
+### Help Text
+
+**Before (AI):**
+> Our advanced algorithm requires a minimum of three characters to effectively search your database and provide you with optimal results.
+
+**After (Human):**
+> Search requires 3+ characters
+
+---
+
+## Voice Calibration for Product Teams
+
+If a product has an established UX voice:
+
+Look for:
+- **Formality level** (is it conversational? Professional? Between?)
+- **Personality** (present? Absent? How much?)
+- **Tone in errors** (apologetic? Practical? Friendly?)
+- **Emoji usage** (none? Selective? Everywhere?)
+- **Sentence length** (fragments? Full sentences? Mix?)
+- **Assumptions about user knowledge** (technical? Non-technical?)
+
+**Example calibration:**
+> "This product's voice: conversational but professional, light personality (not cartoonish), practical in errors (no false apologies), emoji used sparingly for clarity, mix of fragments and sentences, assumes users are non-technical."
+
+Match this in UX copy edits.
+
+---
+
+## When UX Copy Can Be Longer
+
+Some contexts warrant longer UX copy:
+
+- **Irreversible actions** (deleting, shutting down, major changes) — explain consequences
+- **Complex concepts** (if the feature is truly complex, explain briefly)
+- **Legal/compliance** (privacy, terms, billing) — necessary evil
+- **First-time setup** (onboarding can spend more words because it's new)
+
+But even these should be as short as possible. Test with real users.
+
+---
+
+## The UX Writing Virtue
+
+Great UX copy is invisible. Users never think about it. They just complete their task.
+
+The worst UX copy makes you *read* instead of *do*.
+
+AI makes users read. Humans make them act.

@@ -1,204 +1,212 @@
-# Genre Profile: Business & Corporate Writing
+# Genre Profile: Creative & Personal Writing
 
-Board updates. Quarterly reviews. Pitch decks. Investor pitches. Strategy documents. Executive summaries.
+Blog posts. Essays. Memoirs. Personal narratives. Opinion pieces. Creative nonfiction.
 
 ## The Goal
 
-**Conviction without bullshit. Opinions backed by data. Clarity over comfort.**
+**Authenticity over polish. Mess over perfection. Personality is the whole point.**
 
-Business writing often hides weak ideas behind strong language. Good business writing sounds confident because the idea is solid, not because of rhetorical inflation.
+In creative writing, voice is everything. The reader is there for *you*, not for information.
+
+## The Paradox
+
+"Humanizing" creative writing is different. AI creative writing is often *too polished*. Too neat. Too resolved.
+
+Real writing:
+- Tangles
+- Changes its mind mid-thought
+- Contradicts itself
+- Drops asides
+- Wanders
+- Sometimes doesn't resolve
 
 ## What Changes
 
 ### DO Strip
 
-- Significance puffing (good news doesn't need "represents a pivotal moment")
-- Hedging language that undercuts confidence ("might potentially," "arguably")
-- Cargo-cult buzzwords that obscure meaning (synergy, stakeholder alignment, paradigm shift)
-- Passive voice that hides accountability ("mistakes were made" → "we messed up")
-- Fake urgency (everything marked "critical" sounds equally panicked)
-- Rule-of-three virtue lists ("innovation, excellence, impact")
-- Vague attributions ("experts agree")
-- Setup-problem-solution narrative in every section
+- Undue significance inflation (not every moment is transformative)
+- Fake urgency
+- Manufactured drama (the tension-release cycle)
+- Rule-of-three conclusions (beauty, grace, and insight)
+- Generic upbeat closings
+- Overqualified adjectives (magnificent, extraordinary, breathtaking) — unless truly warranted
+- Fake candor (the theatrical pause)
+- Emoji as punctuation
+- Passive voice when active would be more direct
 
 ### DO NOT Strip
 
-- Confidence and conviction (this is appropriate)
-- Direct language (short sentences, active voice)
-- Specific data points and numbers
-- Strategic framing (why this matters to the business)
-- Technical vocabulary when appropriate
-- First-person perspective where ownership is relevant ("I think" / "we did")
-- Honest uncertainty when it exists ("We don't know if this will work, but here's our hypothesis")
+- Mess (unresolved contradictions, half-formed thoughts)
+- Tangents and asides
+- Specific, weird, hard-to-fabricate details
+- Mixed feelings
+- Conversational tone (including contractions, sentence fragments, "ums")
+- Humor (dry, dark, self-deprecating, whatever)
+- Genuine vulnerability
+- Dated references or in-jokes
+- Repetition (if it's for rhythm or emphasis)
 
-## Signs of AI in Business Writing
+## The Real Tells in Creative Writing
 
-**Problem areas:**
-- "This strategic initiative represents a paradigm shift" ← just say what you're doing
-- "We're committed to driving meaningful value" ← what does that mean?
-- "Stakeholder alignment across the organization" ← decide, or say you're deciding
-- "Key learnings" ← what did you learn?
-- "Synergistic collaboration" ← who's working with who?
-- "Leveraging core competencies" ← do your job
-- Sentences that sound impressive but commit to nothing
-- Three virtues at the end of every section
+**Problem 1: Over-resolution**
+AI ends every paragraph with a conclusion. A lesson learned. The point, clearly stated.
 
-**Good business prose:**
-- States a position clearly
-- Backs it up with data
-- Admits what's uncertain
-- Explains the trade-offs
-- Owns the decision (not passive)
-- Moves fast (no preamble)
+Humans leave things hanging.
 
-## The Power Imbalance
+**Before (AI):**
+> I walked through the park and saw the autumn leaves falling. In that moment, I realized that change is a natural part of life, and I learned to embrace transformation.
 
-In business, confidence + unclear language = power. Vague promises let people hear what they want to hear.
-
-Good business writing is clear + confident. That requires either:
-- The idea is actually strong, or
-- You're admitting the limits
-
-AI defaults to vague confidence. Humans can afford to be specific.
-
-## Common Business AI Mistakes
-
-**Mistake 1: Vague claims**
-> "We will drive innovation and unlock value across all business segments through strategic optimization."
-
-**Fix:**
-> "We're cutting customer acquisition cost from $50 to $35 by switching ad networks."
+**After (Human):**
+> The leaves were falling. I stood there for an hour and didn't reach any conclusions about it.
 
 ---
 
-**Mistake 2: The false choice**
-> "We have two options: maintain status quo (risky) or embrace transformation (opportunity)."
+**Problem 2: Unearned sentiment**
+AI inflates stakes. Ordinary moments become profound.
 
-**Fix:**
-> "Option A: Keep the current system, cut costs 15%, live with the 8-second load time. Option B: Rebuild, cost $2M, 6 months, 400ms load time. I recommend B because customer churn is costing us $5M/year."
+**Before (AI):**
+> That summer marked a pivotal turning point in my existence. It transformed everything I knew about myself and set the stage for the person I would become.
 
----
-
-**Mistake 3: Passive voice that hides the decision maker**
-> "It was decided that stakeholder engagement would be prioritized moving forward."
-
-**Fix:**
-> "I'm prioritizing customer feedback over internal process. Here's why."
+**After (Human):**
+> That summer I worked retail and learned I hated dealing with people's anger about returned items.
 
 ---
 
-**Mistake 4: Hedging that undercuts confidence**
-> "It could be argued that exploring potential synergies might contribute to possible improvements."
+**Problem 3: Manufactured urgency in personal narrative**
+AI adds drama where none exists.
 
-**Fix:**
-> "We should merge the teams. I think it'll cut redundancy by 30%."
+**Before (AI):**
+> The crisis unfolded in the span of mere moments, threatening everything I held dear.
+
+**After (Human):**
+> I showed up late to dinner and my mom was annoyed.
 
 ---
 
-**Mistake 5: Significance inflation**
-> "This cost-cutting measure represents a historic milestone in operational excellence."
+**Problem 4: Fake profundity**
+AI ends with "the lesson," even if there's no lesson.
+
+**Before (AI):**
+> As I closed the book, I understood that life's greatest gift is simply being present in each moment.
+
+**After (Human):**
+> I closed the book. It was boring and I'll never read it again.
+
+---
+
+## Signs of Real Writing in Creative Nonfiction
+
+- **Specific, useless details** (the color of the coffee cup, the exact complaint someone made, the weird song playing)
+- **Contradictions** ("I hate running, but I run every morning." — no neat resolution)
+- **Asides and interruptions** ("(I think that's when I started drinking more)" — mid-sentence vulnerability)
+- **Unresolved tension** (ending without learning the lesson)
+- **Dated references** (memes, songs, shows from a specific year)
+- **Conversational tangents** (getting off track, then finding your way back)
+- **Authentic uncertainty** ("I don't know why this bothered me so much")
+- **Real dialogue** (with false starts, "ums," interruptions)
+
+## Common Creative AI Mistakes
+
+**Mistake 1: Describing instead of showing**
+> "I felt a deep sadness welling up inside me, an emotion of profound loss and regret."
 
 **Fix:**
-> "We're eliminating the redundant approval step. Should save $200k/year."
+> "I sat on the porch and cried."
 
-## Checkpoints Before Finalizing
+**Mistake 2: The epiphany setup**
+> "And in that moment, I realized something profound that would change everything."
 
-- [ ] Can I explain this in one sentence? (If not, the idea isn't clear)
-- [ ] Did I avoid all significance puffing?
-- [ ] Did I provide numbers where they matter?
-- [ ] Did I explain the trade-offs?
-- [ ] Am I owning this (or explicitly not owning it)?
-- [ ] Would someone disagree with this? (If no, maybe I'm being too vague)
-- [ ] Can I explain *why* I made this call?
-- [ ] Did I avoid: paradigm, synergy, leverage, stakeholder alignment, key learnings, drive impact, value creation?
+**Fix:**
+> "I sat there. Nothing changed."
+
+**Mistake 3: Overwriting emotion**
+> "A tsunami of unbridled rage and anguish crashed over me, threatening to drown me in its torrential depths."
+
+**Fix:**
+> "I was furious."
+
+**Mistake 4: Forced meaning-making**
+> "This experience taught me the importance of resilience and the power of human connection, leaving me transformed."
+
+**Fix:**
+> "This happened. I'm still figuring out what it means."
+
+**Mistake 5: Wrapping everything up**
+> "In the end, I learned that love conquers all, and I emerged stronger than before."
+
+**Fix:**
+> [Just end mid-thought, confused, or unresolved]
+
+## Checkpoints Before Publishing
+
+- [ ] Did you leave at least one thing unresolved?
+- [ ] Is there at least one specific detail that's weird or useless?
+- [ ] Did you contradict yourself without explaining it?
+- [ ] Do you sound like you on your worst day (tired, rambling)?
+- [ ] Did you avoid: magnificent, extraordinary, breathtaking, transformed, pivotal, profound, paradigm shift?
+- [ ] Did you avoid: ending with a lesson?
+- [ ] Is there actual dialogue (with interruptions and "ums")?
+- [ ] Would a friend recognize your voice in this?
+- [ ] Did you include a regret, doubt, or unpopular opinion?
 
 ## Examples
 
-### Board Update
+**Personal Essay**
 
 **Before (AI):**
-> Q3 represents a transformative quarter in our organizational journey. Through strategic initiatives and innovative thinking, we have successfully navigated market headwinds while unlocking unprecedented growth opportunities. Our team has demonstrated remarkable resilience and commitment to excellence. Key learnings include the importance of stakeholder engagement and the power of cross-functional collaboration. Moving forward, we remain committed to driving meaningful value and sustainable growth.
+> That transformative summer marked a pivotal turning point in my journey of self-discovery. As I wandered through the city streets, I encountered profound moments of beauty and grace. The experience ultimately taught me invaluable lessons about resilience, growth, and the enduring power of human connection. I emerged from that summer fundamentally changed, with a deeper appreciation for life's precious moments.
 
 **After (Human):**
-> Q3 Revenue: $12M (+40% YoY). Margins at 28% (up from 22%). Lost two customers to competitor pricing, but retained 95% otherwise.
->
-> What worked: The new pricing model. Enterprise accounts are sticky now.
-> What didn't: Support scaling. We're 2 weeks behind on tickets.
->
-> Q4 priority: Hire 3 more support reps (cost: $300k for full year). This should get us back to <24hr response time.
->
-> Risk: We're seeing early interest from competitor. One potential customer walked because of their feature X. We don't have it; it would take 3 months to build. Decision: Skip it for now. Continue monitoring.
+> Summer I was 23 I didn't have a job. My parents let me stay in their basement. I watched a lot of TV and took long walks around the neighborhood where I grew up. Most days felt wasted. I read one book the whole summer and didn't finish it. I don't know if I changed. I was bored, and then it ended, and I went back to school. That's basically it.
 
 ---
 
-### Pitch Deck (Opening)
+**Blog Post (Personal)**
 
 **Before (AI):**
-> We are building the future of business intelligence through innovative AI-driven insights that revolutionize how enterprises unlock organizational potential. Our cutting-edge platform seamlessly integrates transformative capabilities that empower teams to drive unprecedented growth.
+> I recently realized that the key to productivity is mindfulness, and this revolutionary insight has transformed how I approach my work. By leveraging the power of presence and intentionality, I've unlocked unprecedented levels of efficiency. This paradigm shift has fundamentally changed my relationship with productivity, and I'm excited to share how you can experience the same transformative benefits.
 
 **After (Human):**
-> Most companies spend 40% of their data budget getting data, 20% storing it, 1% analyzing it.
->
-> We make that 1% automatic. You connect your database. Our AI finds the three things that actually matter. Email, daily.
->
-> Market size: 50,000 enterprise companies in North America. Average spend on business intelligence: $2M/year. We're taking 10-20% of that pie.
+> I've tried every productivity system. Pomodoros, GTD, time-blocking, bullet journals. None of them stuck because I'd get bored and drift back to my old habits: starting three projects, finishing nothing, feeling bad about it. Last month I tried something dumb: just one to-do item per day. Do this one thing. That's it. Two weeks in, I've done 14 things instead of zero. I don't think it's revolutionary. But it's working for me and maybe it'll work for you.
 
 ---
 
-### Strategy Document (Decision Section)
+**Memoir Passage**
 
 **Before (AI):**
-> Strategic Framework for Moving Forward
->
-> The organization must prioritize alignment across all stakeholder groups to ensure sustainable growth and operational excellence. By leveraging our core competencies and embracing innovative thinking, we can unlock unprecedented opportunities in the marketplace.
+> My childhood was marked by profound challenges and incredible resilience. Through the adversity I faced, I learned invaluable lessons about strength, perseverance, and the transformative power of human spirit. These formative experiences shaped me into the resilient individual I am today.
 
 **After (Human):**
-> **Decision: Stop building custom features for enterprise deals. Start building platforms.**
->
-> Why: Custom work is 30% margin, platforms are 80%. We're hiring 3x faster to serve 5% more revenue. This doesn't scale.
->
-> Timeline: Finish current three custom projects (3 months). Migrate those customers to platform (or move on).
->
-> Downside: One customer may leave. Upside: We can grow headcount 20% instead of 50%.
->
-> Revisit this in Q2 if the platform doesn't gain traction.
+> My mom left when I was eight. I didn't understand it then. I'm 35 now and I still don't understand it in a way that feels satisfying. My dad didn't talk about it. He just made dinner and helped with homework like nothing had happened. That wasn't noble or transformative; it was just what he did. I was angry at my mom for a long time. Then I was angry at my dad for not being angry. Now I'm not sure. I just know I hated coming home to an empty house and I've spent my whole adult life working hard not to replicate that.
 
 ---
 
-## Voice Calibration for Business Writers
+## Voice Calibration for Creative Writers
 
-If analyzing a business leader's sample:
+If analyzing a creative writer's sample:
 
 Look for:
-- **Sentence length** (short and punchy? Long and formal? Mixed?)
-- **How they handle uncertainty** (confident? Hedged? Balanced?)
-- **Data intensity** (lots of numbers? General statements? Mix?)
-- **First person** (I/we heavy? Distanced?)
-- **Directness** (get to the point? Build context first?)
-- **How they explain decisions** (just the decision? Full reasoning? Trade-offs?)
-- **Tone** (formal? Casual? Somewhere between?)
+- **Sentence length variety** (choppy? Flowing? Mixed?)
+- **How they handle emotion** (stated? Shown? Implied?)
+- **Detail tendency** (specific and weird? Generalized? Somewhere between?)
+- **Attitude** (cynical? Hopeful? Resigned? Mischievous?)
+- **Digression style** (do they go off on tangents? How do they return?)
+- **How they treat ambiguity** (resolve it? Leave it? Play with it?)
+- **Humor** (present? Type: dry, dark, silly, self-deprecating, mean?)
+- **Vulnerability** (do they admit confusion, doubt, desire?)
+- **Punctuation quirks** (dashes, semicolons, ellipses, fragments?)
 
 **Example calibration:**
-> "This leader: short punchy sentences, confident without being arrogant, uses data but doesn't over-rely on it, says 'I' often, gets to the point immediately, explains reasoning but not exhaustively, formal-casual mix (no jargon, but structured)."
+> "This writer: short sentences alternating with longer ones, cynical tone with soft moments, includes weird specific details, admits confusion, uses fragments for rhythm, dark humor, talks about shame and desire, uses semicolons to connect related ideas."
 
 Match this in rewrites.
 
 ---
 
-## When Business Writing Should Remain Formal
+## The Difference Between Humanized and Over-Humanized
 
-Some contexts warrant formal, hedged language:
-- **Legal documents** (precision > personality)
-- **Regulatory filings** (must be exact)
-- **Official records** (audit trail matters)
+**TOO CORRECTED:** You've stripped all the specificity looking for AI tells. Now it sounds generic. No voice at all.
 
-For everything else: Be direct, be specific, be confident.
+**RIGHT BALANCE:** It sounds like the author thinking out loud. Specific. Opinionated. Sometimes contradictory. Sometimes incomplete.
 
----
-
-## The Difference Between Good Business Writing and AI Business Writing
-
-**AI:** Sounds important, means nothing.
-**Human:** Sounds simple, commits to something.
-
-In business, specificity is power. Vagueness is weakness, disguised as caution.
+The goal isn't polish. The goal is *authenticity*.

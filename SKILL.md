@@ -1,257 +1,293 @@
-# Reverse Modes: Adjust Tone Without Sounding AI
+---
+name: humanizer
+version: 3.0.1
+description: |
+  Remove signs of AI-generated writing and optimize for authentic human voice. Pattern detection across 20 categories of AI tells. Nine genre profiles (technical, business, academic, creative, marketing, email, interviews, social, UX). Voice calibration from writing samples. Interactive workflow with reasoning for each change. Reverse modes for tone adjustment. Structural beat analysis. Use whenever text sounds robotic, templated, or suspiciously polished — whether it's a blog post, business email, grant proposal, job interview answer, LinkedIn post, or API documentation.
+license: MIT
+compatibility: any-agent
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Grep
+  - AskUserQuestion
+---
 
-Sometimes the problem isn't that text sounds AI-generated. It's that it sounds the wrong tone.
+# Humanizer: AI Pattern Removal & Voice Optimization
 
-Use reverse modes to adjust without creating new AI patterns.
+Remove AI patterns. Add authentic voice. Genre-aware. Interactive. Reversible.
+
+## Quick Start
+
+You can run this three ways:
+
+**SIMPLE MODE:** "Humanize this text"  
+→ Auto-detect genre, strip AI patterns, add voice
+
+**VOICE-MATCHED MODE:** "Humanize this. Here's my voice sample: [text or file path]"  
+→ Calibrate to your writing style, then rewrite
+
+**GUIDED MODE** (also called interactive)**:** "Walk me through each change"  
+→ Every tell shown with reasoning; you accept, reject, or counter each one
 
 ---
 
-## Mode 1: FORMALIZE
+## Core Workflow
 
-**Use when:** Text is too casual, too hedged, or needs to sound more authoritative.
-
-**Changes:**
-- Replace contractions with full forms
-- Use passive voice where appropriate (for impersonality)
-- Replace casual vocabulary with precise terms
-- Remove hedges (replace "might" with "will")
-- Reduce first-person perspective
-- Increase sentence length and complexity
-- Use technical or formal jargon appropriately
-
-### Examples
-
-**Casual → Formal**
-
-**Before (Casual):**
-> Hey, so I've figured out how to make this way faster. Just use a cache and you're golden. It cuts load time in half, which is pretty cool.
-
-**After (Formal):**
-> A caching layer can significantly improve performance, reducing load times by approximately 50%.
+1. **Detect the genre** — Is this a tech doc? Startup pitch? Academic paper? LinkedIn post? Job application? Each has different rules.
+2. **Identify AI patterns** — Use the extended pattern library. Cluster tells together; isolated ones are false positives.
+3. **Calibrate voice** — Either from a user sample, or from the genre's human baseline.
+4. **Rewrite** — Replace patterns with specifics, personality, and appropriate structure.
+5. **Review & iterate** — Ask the user which changes stick; propose alternatives.
 
 ---
 
-**Hedged → Decisive**
+## Genre Profiles
 
-**Before (Hedged):**
-> It might be worth considering whether you could potentially improve results by, arguably, trying a different approach.
+**Read the relevant profile before rewriting.** Each has different success criteria:
 
-**After (Formal & Committed):**
-> A different approach will improve results.
-
----
-
-**Too Casual in Professional Context**
-
-**Before:**
-> I'm lowkey excited about this project, not gonna lie.
-
-**After:**
-> I am committed to this project's success.
+- **Technical Writing** (`genres/technical.md`) — Precision over personality. Specificity counts. Ditch the significance inflation; keep the jargon.
+- **Business & Leadership** (`genres/business.md`) — Conviction without bullshit. Opinions matter. Kill the hedges.
+- **Academic & Research** (`genres/academic.md`) — Neutral stance, rigorous structure. First person is *not* the goal. Calm down the enthusiasm.
+- **Creative & Personal** (`genres/creative.md`) — Mess is essential. Mess = authenticity. Tangents, asides, and unresolved thoughts are features.
+- **Marketing & Persuasion** (`genres/marketing.md`) — Authentic enthusiasm. Not "transformative," but specific. Details beat slogans.
+- **Professional Emails** (`genres/email.md`) — Brief. Clear asks. No theater.
+- **Grant Proposals** (no profile yet; annotated sample in `references/pattern-samples.md`) — Impact without melodrama. Specific outcomes, not grand visions.
+- **Job Interviews & Cover Letters** (`genres/interviews.md`) — Confidence without arrogance. Show your thinking.
+- **LinkedIn Posts & Social** (`genres/social.md`) — Personality welcome. Authenticity > polish. Tell stories, not lessons.
+- **UX Copy & Docs** (`genres/ux.md`) — User-focused. Task-first. No filler.
 
 ---
 
-## Mode 2: CASUALIZE
+## Extended Pattern Library
 
-**Use when:** Text is too formal, too hedged, too corporate, or needs more personality.
+**20+ AI tells organized by category.** Read the full list in `references/patterns-extended.md`.
 
-**Changes:**
-- Add contractions
-- Use active voice
-- Replace formal vocabulary with conversational terms
-- Add hedges where appropriate ("maybe," "sort of," "I think")
-- Increase first-person perspective
-- Shorten sentences
-- Reduce jargon; explain it instead
-
-### Examples
-
-**Formal → Casual**
-
-**Before (Formal):**
-> The implementation of a caching mechanism can result in a significant reduction of load times, potentially by as much as 50 percent.
-
-**After (Casual):**
-> Use caching and you'll cut load times in half. It's pretty straightforward.
-
----
-
-**Corporate → Human**
-
-**Before (Formal):**
-> It is recommended that stakeholders engage in periodic synchronization activities to ensure alignment and facilitate communication.
-
-**After (Casual):**
-> Talk to each other once a week so everyone knows what's happening.
+**Quick reference:**
+- Inflated significance (stands as, testament to, pivotal moment)
+- Fake urgency (demands attention, cannot be overstated, absolutely critical)
+- Cargo-cult buzzwords (synergy, leverage, unlock, seamlessly integrate)
+- Hedging qualifiers (it's worth noting, it's important to mention, one could argue)
+- Thesaurus abuse (magnificent vista instead of great view)
+- Fake candor (honestly? let me tell you, here's the thing)
+- Performative casualness (lol, literally, just, so basically)
+- Staccato drama (three short sentences. In a row. For effect.)
+- Passive voice pileups (was conducted, can be seen, is known to)
+- Rule of three rhythms (beauty, grace, and elegance)
+- Em-dash overuse (especially with — this — pattern)
+- Vague attribution (many people, some say, experts agree)
+- Unresolved tension forced into resolution
+- Overstated stakes in personal stories
+- Manufactured nostalgia
+- Generic upbeat conclusions
+- Emoji as punctuation
+- Curly quotes + other tells stacked together
+- Undue emphasis on media coverage
+- AI-specific vocabulary markers
 
 ---
 
-**Stuffy → Approachable**
+## Voice Calibration System
 
-**Before:**
-> The utilization of the aforementioned methodology shall precipitate quantifiable improvements in operational efficiency.
+If the user provides a writing sample (inline or file path):
 
-**After:**
-> This approach works. You'll get better results.
+**1. Analyze the sample:**
+- Sentence length variety (choppy? flowing? mixed?)
+- Word choice level (casual, academic, technical, colloquial?)
+- Paragraph openers (question? assertion? context-setting?)
+- Punctuation habits (dashes, semicolons, parentheticals, exclamation frequency)
+- Recurring phrases or verbal tics
+- Transition style (explicit, implicit, abrupt?)
+- Confidence level (hedges a lot? Owns opinions? Mixes both?)
 
----
+**2. Create a voice profile:**
+Build a 3-5 sentence description of their authentic voice.
 
-## Mode 3: HEDGE
+**3. Rewrite using that profile:**
+Match sentence rhythm. Use their word choice level. Copy their confidence pattern. Don't just remove AI tells; *replace them with their voice*.
 
-**Use when:** Text is too confident, too assertive, or needs to acknowledge uncertainty.
-
-**Changes:**
-- Add softening language ("might," "could," "probably," "sort of")
-- Replace assertions with qualified claims
-- Add acknowledgment of uncertainty ("I think," "it seems," "possibly")
-- Introduce counterarguments or complications
-- Express mixed feelings
-- Acknowledge limitations
-- Admit what you don't know
-
-### Examples
-
-**Certain → Hedged**
-
-**Before (Certain):**
-> This approach is the best solution. It will fix all your problems.
-
-**After (Hedged):**
-> This approach could work well, though I think it might have some limitations in edge cases. It probably won't solve everything, but it should help.
+**Example voice profile:**
+> "Short, specific sentences with occasional longer ones that build momentum. Casual word choice but not slang. Uses semicolons to link related ideas. Likes concrete details over abstractions. Mixes confidence with acknowledged uncertainty (e.g., 'I'm not sure, but I think...'). Rarely uses em dashes; prefers periods."
 
 ---
 
-**Assertive → Uncertain**
+## Interactive Workflow (Guided Mode)
 
-**Before:**
-> AI will transform the world.
+When the user asks to walk through the choices:
 
-**After:**
-> AI might transform the world. Or it might not. Honestly, I'm not sure what happens next.
+**For each pattern flagged:**
+1. Show the original phrase
+2. Explain *why* it's AI-coded (the tell)
+3. Show your proposed replacement
+4. Ask: "Keep this change? Suggest an alternative? Keep original?"
 
----
+This gives users agency and builds intuition for what authentic voice sounds like.
 
-**Overly Confident**
-
-**Before:**
-> Remote work is strictly better than office work. Everyone should do it.
-
-**After:**
-> Remote work works great for some people. Others struggle with it. I haven't figured out if there's a universally correct answer.
-
----
-
-## Mode 4: COMMIT
-
-**Use when:** Text is too hedged, too qualified, or needs more strength and conviction.
-
-**Changes:**
-- Replace hedging language with assertions
-- Remove qualifications and exceptions
-- Replace "I think" with "It's true that"
-- Shorten sentences
-- Remove mixed feelings where they weaken the point
-- Replace questions with statements
-- Tighten conclusions
-
-### Examples
-
-**Hedged → Committed**
-
-**Before (Hedged):**
-> It might be worth considering whether remote work could potentially improve productivity, though it's possible that some people might disagree.
-
-**After (Committed):**
-> Remote work improves productivity.
+Example exchange:
+> **Original:** "The results stand as a testament to the transformative power of AI."
+>
+> **Tell:** Inflated significance + awkward phrasing. "Stand as a testament to" is AI boilerplate.
+>
+> **Proposed:** "The results show AI worked."
+>
+> **User feedback:** "Too bare. How about 'The results prove AI solved the problem'?"
+>
+> **Final:** "The results prove AI solved the problem."
 
 ---
 
-**Questioning → Asserting**
+## Reverse Modes
 
-**Before:**
-> Isn't it possible that AI could be useful? Maybe it will transform how we work?
+Text too casual? Too hedged? Too confident? Use reverse mode:
 
-**After:**
-> AI will transform how we work.
+- **Formalize:** Make it sound more authoritative. Add hedges where appropriate. Remove slang. Increase technical depth.
+- **Casualize:** Strip jargon. Use shorter sentences. Add personality. More contractions.
+- **Hedge:** Add uncertainty. Soften claims. Introduce mixed feelings. "I think" instead of assertions.
+- **Commit:** Remove hedging. Own the take. Shorter, punchier sentences. Assertions, not questions.
 
----
-
-**Over-Qualified → Strong**
-
-**Before:**
-> This could arguably be considered, in some sense, a potentially valuable approach, though not everyone might agree.
-
-**After:**
-> This is valuable.
+Each reverse mode has its own rewrite guidelines in `references/reverse-modes.md`.
 
 ---
 
-## Combination Moves
+## Structural Beat Analysis
 
-You can combine modes:
+AI writing often follows predictable narrative arcs. Detect them:
 
-**Formal + Commit:**
-Best for official documents, announcements, policy statements.
+- **Setup-problem-solution:** Every point follows this beat. Feels like a sales pitch.
+- **Rule-of-three payoff:** Three points building to a conclusion. Formulaic rhythm.
+- **Climactic conclusion:** Personal anecdotes always resolve to a "learned a lesson" moment.
+- **Fake tension-release:** "You'd think X, but actually Y!" (manufactured drama)
 
-**Casual + Hedge:**
-Best for personal essays, vulnerable writing, admitting uncertainty.
+Propose structural alternatives. Show how humans organize the same ideas differently.
 
-**Casual + Commit:**
-Best for blog posts, direct communication, persuasive writing that sounds human.
-
-**Formal + Hedge:**
-Best for academic writing, research papers, balanced analysis.
+See `references/structural-beats.md` for rewrite strategies.
 
 ---
 
-## Checklist for Each Mode
+## Process and Output
 
-### FORMALIZE
-- [ ] Removed all contractions
-- [ ] Replaced casual vocabulary with precise terms
-- [ ] Reduced first-person perspective
-- [ ] Increased sentence complexity
-- [ ] Used passive voice where appropriate
-- [ ] Removed hedges
-- [ ] Added appropriate jargon
+**SIMPLE MODE:**
+1. Detect genre (ask if unsure)
+2. Read the genre profile
+3. Identify all AI patterns
+4. Rewrite in that genre's voice
+5. Review: any remaining tells?
+6. Final output
 
-### CASUALIZE
-- [ ] Added contractions
-- [ ] Replaced formal vocabulary with conversational terms
-- [ ] Increased first-person perspective
-- [ ] Shortened sentences
-- [ ] Used active voice
-- [ ] Reduced jargon or explained it
-- [ ] Added personality
+**VOICE-MATCHED MODE:**
+1. Read the voice sample
+2. Create a voice profile
+3. Detect genre
+4. Identify patterns using the genre profile
+5. Rewrite matching the voice profile + genre rules
+6. Review
+7. Final output
 
-### HEDGE
-- [ ] Added "might," "could," "possibly," "I think," "sort of"
-- [ ] Replaced some assertions with qualified claims
-- [ ] Acknowledged uncertainty
-- [ ] Introduced counterarguments
-- [ ] Expressed mixed feelings
-- [ ] Stated limitations
-- [ ] Admitted what you don't know
-
-### COMMIT
-- [ ] Removed hedging language
-- [ ] Tightened conclusions
-- [ ] Replaced questions with assertions
-- [ ] Shortened sentences
-- [ ] Removed excessive qualifications
-- [ ] Removed mixed feelings that weaken the point
-- [ ] Increased confidence in language
+**GUIDED MODE:**
+1. Walk through each pattern with reasoning
+2. User decides on each change
+3. Build the rewrite collaboratively
+4. Final output with summary of all changes
 
 ---
 
-## When NOT to Use Reverse Modes
+## False Positives (Don't Rewrite These)
 
-Don't formalize everything. Don't commit to everything. Context matters:
+- Perfect grammar / consistent style (professionals exist)
+- Mixed casual/formal (neurodivergent writers, technical people, young writers)
+- Formal vocabulary in isolation (not all fancy words are AI)
+- Curly quotes alone (macOS/Word default)
+- One em dash (humans use them)
+- Unsourced claims (most of the web is unsourced)
+- Specific, hard-to-fabricate detail (humans love weird specifics; AI rounds them off)
+- Mixed feelings / unresolved tension (very human signal)
+- Dated references / era-bound slang (AI lags a year)
+- First-person editorial choices (if they can defend it, trust it)
+- Variety in sentence length (humans do this; AI defaults to medium)
+- Genuine asides and self-corrections (models rarely interrupt themselves)
+- Edits before Nov 30, 2022 (pre-ChatGPT)
 
-- **Academic writing** should remain hedged and formal
-- **Creative writing** benefits from casualness and contradiction
-- **Technical writing** needs precision, not necessarily formality
-- **Sales copy** needs commitment and casual tone together
-- **Internal comms** can be casual with mixed feelings
+Look for **clusters** of tells, not isolated ones. One em dash = nothing. Em dash + rule-of-three + "vibrant tapestry" + "Conclusion" section = confession.
 
-Choose the mode based on what the genre and audience need, not because you want to remove AI tells.
+---
+
+## Signs of Human Writing (Preserve These)
+
+- Specific, unusual, hard-to-fabricate detail
+- Mixed feelings and unresolved tension
+- Dated, era-bound references / in-jokes
+- First-person editorial choices the writer can defend
+- Variety in sentence length
+- Genuine asides, parentheticals, or self-corrections
+- Edits before Nov 30, 2022
+
+These are evidence of a real person. Over-editing destroys what makes them human.
+
+---
+
+## When to Stop Humanizing
+
+Humanization is not always the goal. **Don't humanize:**
+- **Legal documents** (need formal, templated language for clarity)
+- **Regulatory compliance copy** (same reason)
+- **Data-heavy reference material** (neutral tone is correct)
+- **Certain technical specs** (clarity > personality)
+
+If it's supposed to be formal and neutral, ask first.
+
+---
+
+## Examples
+
+Worked before/after rewrites with reasoning:
+
+- `references/interactive-workflow.md` — two full guided-mode walkthroughs (technical doc, personal essay)
+- Each genre profile — before/after pairs specific to that genre
+
+Pattern-spotting practice:
+
+- `references/pattern-samples.md` — 7 annotated AI samples (technical, interview, personal essay, email, LinkedIn, grant, marketing) with every tell called out. Before halves only.
+
+---
+
+## Reference Files
+
+```
+humanizer-skill/
+├── SKILL.md .................... this file (master guide)
+├── README.md ................... overview & quick start
+├── INSTALLATION_GUIDE.md ....... setup instructions
+├── LICENSE ..................... MIT
+├── genres/
+│   ├── technical.md
+│   ├── business.md
+│   ├── academic.md
+│   ├── creative.md
+│   ├── marketing.md
+│   ├── email.md
+│   ├── interviews.md
+│   ├── social.md
+│   └── ux.md
+└── references/
+    ├── patterns-extended.md .... 20+ AI tells, by category
+    ├── reverse-modes.md ........ formalize/casualize/hedge/commit
+    ├── structural-beats.md ..... AI narrative arcs & how to break them
+    ├── pattern-samples.md ...... 7 annotated AI samples (tells called out)
+    └── interactive-workflow.md . guided-mode walkthroughs
+```
+
+---
+
+## The Principle Behind All of This
+
+LLMs produce statistically likely output. The result is median, consensus, most-popular-across-domains text. It's correct, but it's also *generic*.
+
+Human writing is specific. Opinionated. Sometimes messy. It has a person behind it.
+
+The job of humanization is not perfection — it's authenticity. Specificity. Voice.
+
+This skill gives you the tools to find that in AI-generated text, or to preserve it when you're rewriting someone else's work.
+
+---
+
+Based on [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup, plus extensions for voice matching, genre awareness, interactive workflow, and reverse modes.

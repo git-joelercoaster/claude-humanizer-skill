@@ -1,276 +1,204 @@
-# Genre Profile: UX Copy & Microcopy
+# Genre Profile: Business & Corporate Writing
 
-Error messages. Onboarding flows. Help text. Button labels. Empty states. Confirmation dialogs. Instruction text. CTAs.
+Board updates. Quarterly reviews. Pitch decks. Investor pitches. Strategy documents. Executive summaries.
 
 ## The Goal
 
-**Task-first. User-focused. Minimal. The text should be invisible.**
+**Conviction without bullshit. Opinions backed by data. Clarity over comfort.**
 
-UX copy isn't marketing. It's a tool. The best UX copy gets out of the way and lets users do what they need to do.
+Business writing often hides weak ideas behind strong language. Good business writing sounds confident because the idea is solid, not because of rhetorical inflation.
 
 ## What Changes
 
 ### DO Strip
 
-- Marketing language (transformative, revolutionary, empower)
-- Fake friendliness that masks poor UX
-- Excessive personality (emoji, exclamation points, puns)
-- Jargon that users don't understand
-- Multiple questions in succession
-- Anything that makes users *read* instead of *act*
-- Apologies that don't fix the problem
-- Vague language (try again, something went wrong)
+- Significance puffing (good news doesn't need "represents a pivotal moment")
+- Hedging language that undercuts confidence ("might potentially," "arguably")
+- Cargo-cult buzzwords that obscure meaning (synergy, stakeholder alignment, paradigm shift)
+- Passive voice that hides accountability ("mistakes were made" → "we messed up")
+- Fake urgency (everything marked "critical" sounds equally panicked)
+- Rule-of-three virtue lists ("innovation, excellence, impact")
+- Vague attributions ("experts agree")
+- Setup-problem-solution narrative in every section
 
 ### DO NOT Strip
 
-- Warmth (you can be friendly without being fake)
-- Personality, if it serves clarity (e.g., Mailchimp's tone is casual because it fits their brand, AND it makes copy clearer)
-- Emoji, if it clarifies (a single ✓ on a success state, or 🔒 on a password field, is clear)
-- Conversational tone (users respond better to "We need..." than "A valid email address is required")
-- Specific guidance (tell users exactly what to do)
-- Humor, if it serves the task (never pure entertainment)
+- Confidence and conviction (this is appropriate)
+- Direct language (short sentences, active voice)
+- Specific data points and numbers
+- Strategic framing (why this matters to the business)
+- Technical vocabulary when appropriate
+- First-person perspective where ownership is relevant ("I think" / "we did")
+- Honest uncertainty when it exists ("We don't know if this will work, but here's our hypothesis")
 
-## Signs of AI in UX Copy
+## Signs of AI in Business Writing
 
 **Problem areas:**
-- "Welcome to our innovative platform designed to transform your experience" ← delete this entirely
-- "Please enter a valid email address to seamlessly continue" ← "Email address required"
-- "Congratulations! You've successfully created an account, marking a pivotal moment in your journey with us" ← "Account created"
-- "Something unexpected occurred" ← what exactly failed?
-- Buttons labeled "Submit Your Information" ← "Continue" or "Save"
-- Help text that explains the system instead of helping the user
-- Multiple sentences when one would do
-- Cutesy language that delays task completion
+- "This strategic initiative represents a paradigm shift" ← just say what you're doing
+- "We're committed to driving meaningful value" ← what does that mean?
+- "Stakeholder alignment across the organization" ← decide, or say you're deciding
+- "Key learnings" ← what did you learn?
+- "Synergistic collaboration" ← who's working with who?
+- "Leveraging core competencies" ← do your job
+- Sentences that sound impressive but commit to nothing
+- Three virtues at the end of every section
 
-**Good UX copy:**
-- Tells the user what to do
-- Explains *why* if needed
-- Gets out of the way
-- Specific, not vague
-- No more than one sentence (usually)
-- Assumes the user knows what they want
+**Good business prose:**
+- States a position clearly
+- Backs it up with data
+- Admits what's uncertain
+- Explains the trade-offs
+- Owns the decision (not passive)
+- Moves fast (no preamble)
 
-## The UX Principle
+## The Power Imbalance
 
-Every word a user has to read is a word that delays task completion. Good UX copy is invisible. Users notice only when something's confusing.
+In business, confidence + unclear language = power. Vague promises let people hear what they want to hear.
 
-AI tries to make UX copy *visible* — to impress, to reassure, to establish a relationship. Users don't care. They want to complete the task.
+Good business writing is clear + confident. That requires either:
+- The idea is actually strong, or
+- You're admitting the limits
 
-## Common UX AI Mistakes
+AI defaults to vague confidence. Humans can afford to be specific.
 
-**Mistake 1: Marketing in the UI**
-> "Welcome! You're about to embark on an exciting journey to unlock your full potential with our transformative platform."
+## Common Business AI Mistakes
+
+**Mistake 1: Vague claims**
+> "We will drive innovation and unlock value across all business segments through strategic optimization."
 
 **Fix:**
-> [Delete entirely. Get to the form.]
+> "We're cutting customer acquisition cost from $50 to $35 by switching ad networks."
 
 ---
 
-**Mistake 2: Vague error**
-> "Something went wrong. Please try again."
+**Mistake 2: The false choice**
+> "We have two options: maintain status quo (risky) or embrace transformation (opportunity)."
 
 **Fix:**
-> "Your password must be at least 8 characters."
-
-or
-
-> "This email is already registered. Sign in instead?"
+> "Option A: Keep the current system, cut costs 15%, live with the 8-second load time. Option B: Rebuild, cost $2M, 6 months, 400ms load time. I recommend B because customer churn is costing us $5M/year."
 
 ---
 
-**Mistake 3: Explaining the system instead of helping**
-> "Our advanced verification algorithm requires at least 24 hours to process your request in order to optimize system stability and security."
+**Mistake 3: Passive voice that hides the decision maker**
+> "It was decided that stakeholder engagement would be prioritized moving forward."
 
 **Fix:**
-> "We'll verify your identity in 1 business day."
+> "I'm prioritizing customer feedback over internal process. Here's why."
 
 ---
 
-**Mistake 4: Excessive friendliness**
-> "Whoopsie! 🙈 Something didn't work out like we planned. Our team is probably sleeping now, but try again when the sun comes up! ☀️"
+**Mistake 4: Hedging that undercuts confidence**
+> "It could be argued that exploring potential synergies might contribute to possible improvements."
 
 **Fix:**
-> "Error. Our servers are down. We'll be back in 30 minutes."
-
-(or, if you know the issue:)
-
-> "Your file is too large (max 25MB). Try compressing it."
+> "We should merge the teams. I think it'll cut redundancy by 30%."
 
 ---
 
-**Mistake 5: Fake apology**
-> "We sincerely apologize for the inconvenience this error has caused. We are deeply committed to resolving this issue and ensuring your complete satisfaction."
+**Mistake 5: Significance inflation**
+> "This cost-cutting measure represents a historic milestone in operational excellence."
 
 **Fix:**
-> "This payment method doesn't work. Try another card."
+> "We're eliminating the redundant approval step. Should save $200k/year."
 
-(If you actually messed up:)
+## Checkpoints Before Finalizing
 
-> "Sorry, we deleted your data by mistake. It's being restored now. Should be back within 2 hours."
-
----
-
-**Mistake 6: Button labels that don't say what they do**
-> "Let's Go" / "Submit Your Preference" / "Proceed"
-
-**Fix:**
-> "Create Account" / "Save Changes" / "Confirm Order"
-
-(Use the verb that describes the action.)
-
----
-
-**Mistake 7: Help text that's too long**
-> "In order to successfully log in to your account, you will need to enter your username (or the email address you used when registering) along with your password in the fields below. This password is case-sensitive and must contain at least 8 characters, including one number and one special character."
-
-**Fix:**
-> "Email or username (case-sensitive)"
-> "Password (8+ characters, 1 number, 1 symbol)"
-
----
-
-## UX Copy Hierarchy
-
-**Priority 1 (always clear):**
-- Error messages (what failed? why? what now?)
-- Confirmations (what did you just do?)
-- Required actions (what must the user do?)
-
-**Priority 2 (be clear, can be brief):**
-- Empty states (what should they do now?)
-- Helper text (why are we asking?)
-- Warnings (what will happen?)
-
-**Priority 3 (can be personality):**
-- Success states (affirm the win, briefly)
-- Onboarding (get them to the product, fast)
-- CTAs (be enthusiastic if the action is good)
-
-**Priority 4 (minimize):**
-- Explanations of system behavior
-- Apologies (fix the problem first)
-- Marketing messages
-
-## Checkpoints Before Launch
-
-- [ ] Can a user understand what to do in 3 seconds?
-- [ ] If there's an error, is it specific (not "Something went wrong")?
-- [ ] Are button labels verbs that describe the action?
-- [ ] Is the tone consistent (not cartoony in one place, robotic in another)?
-- [ ] Did I avoid: innovative, transform, empower, unlock, journey, seamless, cutting-edge?
-- [ ] Did I remove marketing language?
-- [ ] Is there anything here users don't need to read?
-- [ ] Would my 70-year-old mom understand this?
-- [ ] Does the tone match the situation (serious error → serious tone, onboarding → lighter)?
+- [ ] Can I explain this in one sentence? (If not, the idea isn't clear)
+- [ ] Did I avoid all significance puffing?
+- [ ] Did I provide numbers where they matter?
+- [ ] Did I explain the trade-offs?
+- [ ] Am I owning this (or explicitly not owning it)?
+- [ ] Would someone disagree with this? (If no, maybe I'm being too vague)
+- [ ] Can I explain *why* I made this call?
+- [ ] Did I avoid: paradigm, synergy, leverage, stakeholder alignment, key learnings, drive impact, value creation?
 
 ## Examples
 
-### Onboarding Email
+### Board Update
 
 **Before (AI):**
-> Welcome to the future! 🚀
->
-> You're about to embark on a transformative journey with our innovative platform. We're thrilled to have you join our community of forward-thinking professionals.
->
-> Get started by exploring these exciting features:
-> - Seamlessly integrate your data ✨
-> - Unlock powerful insights 💡
-> - Empower your team to drive impact 🔥
->
-> Let's transform your business together!
+> Q3 represents a transformative quarter in our organizational journey. Through strategic initiatives and innovative thinking, we have successfully navigated market headwinds while unlocking unprecedented growth opportunities. Our team has demonstrated remarkable resilience and commitment to excellence. Key learnings include the importance of stakeholder engagement and the power of cross-functional collaboration. Moving forward, we remain committed to driving meaningful value and sustainable growth.
 
 **After (Human):**
-> Hi [Name],
+> Q3 Revenue: $12M (+40% YoY). Margins at 28% (up from 22%). Lost two customers to competitor pricing, but retained 95% otherwise.
 >
-> Your account is ready. Start here:
-> 1. Add your data (5 min) — connect your database
-> 2. Build your first report (10 min) — drag & drop interface
-> 3. Share with your team — invite up to 5 people on free tier
+> What worked: The new pricing model. Enterprise accounts are sticky now.
+> What didn't: Support scaling. We're 2 weeks behind on tickets.
 >
-> Stuck? See the quick start guide or email help@example.com
+> Q4 priority: Hire 3 more support reps (cost: $300k for full year). This should get us back to <24hr response time.
+>
+> Risk: We're seeing early interest from competitor. One potential customer walked because of their feature X. We don't have it; it would take 3 months to build. Decision: Skip it for now. Continue monitoring.
 
 ---
 
-### Error Message
+### Pitch Deck (Opening)
 
 **Before (AI):**
-> An unexpected error has occurred. We sincerely apologize for any inconvenience this may cause. Please try again later or contact our support team if the problem persists.
+> We are building the future of business intelligence through innovative AI-driven insights that revolutionize how enterprises unlock organizational potential. Our cutting-edge platform seamlessly integrates transformative capabilities that empower teams to drive unprecedented growth.
 
 **After (Human):**
-> We couldn't process your payment. Try these:
-> - Refresh and try again
-> - Use a different card
-> - Call us: 555-1234 (we'll help, 5 min)
+> Most companies spend 40% of their data budget getting data, 20% storing it, 1% analyzing it.
+>
+> We make that 1% automatic. You connect your database. Our AI finds the three things that actually matter. Email, daily.
+>
+> Market size: 50,000 enterprise companies in North America. Average spend on business intelligence: $2M/year. We're taking 10-20% of that pie.
 
 ---
 
-### Empty State
+### Strategy Document (Decision Section)
 
 **Before (AI):**
-> Congratulations on creating your account! Your journey toward success has begun. To unlock the full potential of our innovative platform, begin by creating your first project. This exciting step will empower you to transform your workflow and achieve unprecedented productivity.
+> Strategic Framework for Moving Forward
+>
+> The organization must prioritize alignment across all stakeholder groups to ensure sustainable growth and operational excellence. By leveraging our core competencies and embracing innovative thinking, we can unlock unprecedented opportunities in the marketplace.
 
 **After (Human):**
-> No projects yet. Create one to get started. (Takes 2 minutes)
+> **Decision: Stop building custom features for enterprise deals. Start building platforms.**
+>
+> Why: Custom work is 30% margin, platforms are 80%. We're hiring 3x faster to serve 5% more revenue. This doesn't scale.
+>
+> Timeline: Finish current three custom projects (3 months). Migrate those customers to platform (or move on).
+>
+> Downside: One customer may leave. Upside: We can grow headcount 20% instead of 50%.
+>
+> Revisit this in Q2 if the platform doesn't gain traction.
 
 ---
 
-### Confirmation Dialog
+## Voice Calibration for Business Writers
 
-**Before (AI):**
-> Are you absolutely certain you wish to permanently delete this item? Please note that this action cannot be undone and will result in the irreversible removal of all associated data. We recommend proceeding with caution.
-
-**After (Human):**
-> Delete this project? This can't be undone.
-> [Cancel] [Delete]
-
----
-
-### Help Text
-
-**Before (AI):**
-> Our advanced algorithm requires a minimum of three characters to effectively search your database and provide you with optimal results.
-
-**After (Human):**
-> Search requires 3+ characters
-
----
-
-## Voice Calibration for Product Teams
-
-If a product has an established UX voice:
+If analyzing a business leader's sample:
 
 Look for:
-- **Formality level** (is it conversational? Professional? Between?)
-- **Personality** (present? Absent? How much?)
-- **Tone in errors** (apologetic? Practical? Friendly?)
-- **Emoji usage** (none? Selective? Everywhere?)
-- **Sentence length** (fragments? Full sentences? Mix?)
-- **Assumptions about user knowledge** (technical? Non-technical?)
+- **Sentence length** (short and punchy? Long and formal? Mixed?)
+- **How they handle uncertainty** (confident? Hedged? Balanced?)
+- **Data intensity** (lots of numbers? General statements? Mix?)
+- **First person** (I/we heavy? Distanced?)
+- **Directness** (get to the point? Build context first?)
+- **How they explain decisions** (just the decision? Full reasoning? Trade-offs?)
+- **Tone** (formal? Casual? Somewhere between?)
 
 **Example calibration:**
-> "This product's voice: conversational but professional, light personality (not cartoonish), practical in errors (no false apologies), emoji used sparingly for clarity, mix of fragments and sentences, assumes users are non-technical."
+> "This leader: short punchy sentences, confident without being arrogant, uses data but doesn't over-rely on it, says 'I' often, gets to the point immediately, explains reasoning but not exhaustively, formal-casual mix (no jargon, but structured)."
 
-Match this in UX copy edits.
-
----
-
-## When UX Copy Can Be Longer
-
-Some contexts warrant longer UX copy:
-
-- **Irreversible actions** (deleting, shutting down, major changes) — explain consequences
-- **Complex concepts** (if the feature is truly complex, explain briefly)
-- **Legal/compliance** (privacy, terms, billing) — necessary evil
-- **First-time setup** (onboarding can spend more words because it's new)
-
-But even these should be as short as possible. Test with real users.
+Match this in rewrites.
 
 ---
 
-## The UX Writing Virtue
+## When Business Writing Should Remain Formal
 
-Great UX copy is invisible. Users never think about it. They just complete their task.
+Some contexts warrant formal, hedged language:
+- **Legal documents** (precision > personality)
+- **Regulatory filings** (must be exact)
+- **Official records** (audit trail matters)
 
-The worst UX copy makes you *read* instead of *do*.
+For everything else: Be direct, be specific, be confident.
 
-AI makes users read. Humans make them act.
+---
+
+## The Difference Between Good Business Writing and AI Business Writing
+
+**AI:** Sounds important, means nothing.
+**Human:** Sounds simple, commits to something.
+
+In business, specificity is power. Vagueness is weakness, disguised as caution.

@@ -1,188 +1,151 @@
-# Genre Profile: Academic & Research Writing
+# Genre Profile: Job Interviews & Cover Letters
 
-Lab reports. Research papers. Dissertations. Literature reviews. Academic abstracts. Scientific manuscripts.
+Cover letters. Interview answers. LinkedIn summaries. "Tell me about yourself" responses.
 
 ## The Goal
 
-**Rigor without melodrama. Neutral stance, precise language. Let the data speak.**
+**Confidence without arrogance. Show your thinking, not your sales pitch.**
 
-Academic writing should be formal, but not inflated. Hedging is appropriate (science is uncertain), but not excessive. Significance is stated carefully, not puffed.
+People hire people they can work with. That means: honest, capable, aware of your limits.
 
 ## What Changes
 
 ### DO Strip
 
-- Significance puffing ("groundbreaking," "revolutionary," "unprecedented")
-- Fake urgency (nothing in academia needs to be marketed as critical)
-- Cargo-cult buzzwords (synergy, paradigm, ecosystem)
-- Theatrical openings (fake candor, dramatic setup)
-- Unsubstantiated claims about broader impact
-- Emotionally manipulative language
-- Vague attributions ("experts say," "research shows" without citing)
-- Manufactured drama in methods
+- Sales language (revolutionary, game-changing, innovative, transformative)
+- Unsubstantiated claims (you didn't transform the industry; you did your job well)
+- Fake humility ("I'm just a humble developer, but...")
+- Bragging disguised as humility ("I can't believe how much I accomplished...")
+- Significance inflation (you solved a problem; it wasn't a "pivotal moment")
+- Generic language ("passionate," "results-driven," "go-getter")
+- Overqualified adjectives (beautiful code, elegant solution, stunning results)
+- Rule-of-three lists of your virtues
+- Fake urgency language
 
 ### DO NOT Strip
 
-- Formal tone (this is appropriate)
-- Third-person perspective (if that's the convention)
-- Hedging language appropriate to the field (may, might, could, suggests)
-- Passive voice in methods sections (acceptable and appropriate)
-- Technical vocabulary (essential)
-- Careful attribution and citations
-- Uncertainty acknowledgment ("limitations include...")
-- Precise qualifications ("in this population," "under these conditions")
+- Specific accomplishments (with numbers)
+- Technical vocabulary (show you know your field)
+- Personality quirks (humans like humans)
+- Honest self-assessment ("I'm strong at X, still learning Y")
+- Enthusiasm *if it's genuine* (not manufactured)
 
-## Signs of AI in Academic Writing
+## Signs of AI in Interviews & Cover Letters
 
-**Problem areas:**
-- "This groundbreaking study represents a paradigm shift" ← just describe what you did
-- "These transformative findings suggest unprecedented implications" ← what did you find?
-- "The remarkable results indicate the revolutionary potential of..." ← state the results
-- Opening with dramatic narrative instead of research question
-- Claiming broader significance than the evidence supports
-- Hedging so much that no actual claim is made
-- Passive voice overdone (when active would be clearer)
+**Red flags:**
+- Opening with "I'm passionate about..."
+- Listing three virtues in a row (innovative, driven, results-focused)
+- Saying you "drive results" without explaining what you did
+- Using "transformative," "revolutionary," "paradigm-shifting"
+- Talking about your "journey" or "evolution" 
+- Ending with "excited to discuss further" (everyone says this)
+- Every achievement framed as "learned a valuable lesson"
+- Claiming all soft skills (communication, leadership) without examples
 
-**Good academic prose:**
-- Clear research question upfront
-- Methods stated plainly
-- Results reported with appropriate caveats
-- Discussion acknowledges limitations
-- Claims are proportionate to evidence
-- Citations are specific and accurate
-- Uncertainty is stated clearly, not hidden
+**Good interview answers:**
+- Specific (names projects, gives numbers, mentions real problems)
+- Honest (acknowledges what you didn't know, still don't know)
+- Brief (gets to the point quickly)
+- Thoughtful (shows your reasoning, not just your conclusion)
+- Humble (confident in what you've done, aware of what you haven't)
 
-## The Academic Trap
+## The Hidden Signal
 
-AI struggles with academic writing because the discipline requires:
-1. **Hedging when uncertain** (appropriate)
-2. **NOT overstating significance** (restrained)
+Hiring managers want to know:
+1. **Can you do the job?** (show evidence)
+2. **Will you grow?** (show awareness of gaps and willingness to learn)
+3. **Can we work together?** (sound like a real person, not a product)
 
-AI does the opposite:
-1. **Hedges on trivial points** (apologetic)
-2. **Overstates significance** (melodramatic)
+AI-sounding answers fail on #3.
 
-Good academic writing: confident in methods, humble about implications.
+## Common Interview AI Mistakes
 
-## Common Academic AI Mistakes
-
-**Mistake 1: Inflated abstract**
-> "This groundbreaking study represents a transformative investigation into the unprecedented implications of novel phenomena. Results indicate revolutionary potential for paradigm-shifting interventions."
+**Mistake 1: Generic virtues**
+> "I am results-driven, innovative, and passionate about creating impact."
 
 **Fix:**
-> "We examined the effect of X on Y in 200 participants. X increased Y by 15% (p<.05). These results suggest X could be useful for treating Z, though longitudinal studies are needed."
+> "I led a project to reduce API latency by 40%, which cut customer support tickets by 25%."
 
----
-
-**Mistake 2: Fake drama in intro**
-> "For centuries, scientists have grappled with the enigmatic question of whether X could possibly affect Y. In a stunning revelation, our work finally unlocks this mystery."
+**Mistake 2: Fake humility**
+> "I'm just a humble engineer, but I somehow managed to revolutionize our entire approach to testing."
 
 **Fix:**
-> "Previous work suggests X may affect Y. This study tests that hypothesis directly."
+> "I rewrote our testing framework. It cut QA time from 3 days to 4 hours, though honestly it broke some edge cases we're still fixing."
 
----
-
-**Mistake 3: Hedging that eliminates the claim**
-> "One might potentially argue that the results could conceivably suggest that X might possibly influence Y, though further research would arguably be warranted to confirm any putative relationships."
+**Mistake 3: The journey narrative**
+> "It was a transformative journey that fundamentally changed how I view software development and enabled me to unlock my full potential as a leader."
 
 **Fix:**
-> "X appears to influence Y. We note the following limitations: [list]. Larger samples would strengthen this conclusion."
+> "I learned that shipping fast is less useful than shipping correct. I slowed down and focused on testing first."
 
----
-
-**Mistake 4: Overstating implications**
-> "These results could revolutionize how we understand human consciousness and potentially transform society."
+**Mistake 4: Unsubstantiated claims**
+> "I'm a natural leader known for my ability to inspire and empower teams."
 
 **Fix:**
-> "These results suggest a possible mechanism for X. They don't address Y or Z, which remain unclear."
+> "I've led three projects from start to finish. On the last one, two team members said they'd ask to work with me again, which felt good."
 
----
-
-**Mistake 5: Melodramatic methods**
-> "Through a rigorous and innovative investigation involving cutting-edge methodologies, we seamlessly integrated advanced protocols to unlock unprecedented insights."
+**Mistake 5: List-of-virtues**
+> "I excel at problem-solving, communication, and strategic thinking."
 
 **Fix:**
-> "We used [method] to measure [variable] across [N] participants. Data were analyzed with [statistical test]."
+> "I'm good at debugging subtle problems. I'm okay at explaining them to non-technical people. Strategy isn't my strength — I'm better with execution."
 
-## Checkpoints Before Finalizing
+## Checkpoints Before Sending
 
-- [ ] Is the research question clear in the first paragraph?
-- [ ] Are methods described in sufficient detail to replicate?
-- [ ] Are results stated before interpretation?
-- [ ] Did I avoid all significance puffing (groundbreaking, revolutionary, unprecedented)?
-- [ ] Are limitations acknowledged?
-- [ ] Are claims proportionate to evidence?
-- [ ] Did I avoid: paradigm, transformative, breakthrough, game-changing, unlock?
-- [ ] Can I support every claim with data or citation?
-- [ ] Would someone in my field think this is appropriately hedged (not over, not under)?
+- [ ] Can you back up every claim with a specific example?
+- [ ] Do you mention at least one thing you don't know or are still learning?
+- [ ] Does it sound like something you'd say in conversation?
+- [ ] Did you avoid: passionate, innovative, drive results, paradigm shift, transformative, revolutionary?
+- [ ] Did you avoid: "I'm humble but..." and self-deprecating humor?
+- [ ] Did you avoid: lists of three virtues?
+- [ ] Does it have numbers or specifics (3 months, $2M, 30% improvement)?
+- [ ] Would someone who knows you recognize themselves in this?
 
 ## Examples
 
-### Research Abstract
+**Cover Letter**
 
 **Before (AI):**
-> This groundbreaking study investigates the transformative effects of cognitive behavioral therapy on anxiety disorders. Through innovative methodology and rigorous analysis, we reveal unprecedented findings that suggest revolutionary implications for mental health treatment. Results indicate that CBT represents a paradigm shift in therapeutic intervention. These groundbreaking findings have profound implications for how we understand and treat anxiety across diverse populations.
+> I am a results-driven software engineer with a passion for innovation and a proven track record of delivering transformative solutions. Throughout my career, I have consistently demonstrated my ability to drive impact and inspire teams. I am particularly drawn to your company's commitment to excellence and would be thrilled to contribute my expertise to your mission of revolutionizing the industry.
 
 **After (Human):**
-> We compared cognitive behavioral therapy (CBT) to standard care for patients with generalized anxiety disorder (N=120). CBT participants showed greater anxiety reduction (d=0.68) at 8 weeks and sustained improvement at 6-month follow-up. Effect sizes were comparable to previous trials. Limitations: single-site study, limited diversity in sample. These results support CBT as an effective treatment, consistent with prior meta-analyses.
+> I've spent three years as a backend engineer at X, mostly working on payment processing. I like building systems that are boring because they're reliable. Your job posting mentions event-driven architecture — I've done that and know where it breaks. I'd like to talk about whether my experience matches what you need.
 
 ---
 
-### Methods Section
+**Interview Answer: "Tell me about a challenge you overcame"**
 
 **Before (AI):**
-> Utilizing cutting-edge methodologies and innovative approaches, we seamlessly integrated advanced protocols to facilitate comprehensive data collection across multiple dimensions. Our revolutionary framework unlocked unprecedented insights through synergistic collaboration and strategic optimization of analytical procedures.
+> I faced a significant challenge when our system struggled with scalability. This transformative experience taught me valuable lessons about resilience and innovation. By leveraging cutting-edge technologies and collaborating with my team, we not only solved the problem but fundamentally revolutionized our entire approach to architecture, marking a pivotal moment in my career.
 
 **After (Human):**
-> We recruited 150 participants from three community health centers. Inclusion criteria: age 18-65, English-speaking, no prior CBT. Exclusion: active psychosis, substance dependence. Participants completed the GAD-7 at baseline and weekly for 8 weeks. Sessions were recorded and coded for adherence using the Cognitive Therapy Scale. We used mixed-effects linear regression to model change over time, with site as a random effect.
+> Our database was slow, taking 5 seconds to load a user profile. I spent two weeks profiling it and found we were doing 40 queries per request. We reduced it to 2 via caching. Load time dropped to 200ms. It wasn't complicated, but it required patience to actually measure before changing things. I tend to want to rewrite first; this taught me to understand first.
 
 ---
 
-### Discussion Limitations
+**LinkedIn Summary**
 
 **Before (AI):**
-> While the implications of this work are far-reaching and transformative, further research would be beneficial to explore additional dimensions.
+> Results-driven engineering leader with a passion for innovation and a proven track record of driving transformative impact across all organizational levels. Skilled at leveraging cutting-edge technologies to unlock unprecedented potential and empower teams to achieve excellence. Strategic thinker committed to excellence and business growth.
 
 **After (Human):**
-> Our sample was predominantly White and educated, limiting generalizability to other populations. We had no active control (e.g., placebo therapy), so we cannot rule out expectancy effects. Follow-up ended at 6 months; longer-term outcomes are unknown. The anxiety measure relies on self-report, which may be biased by treatment expectations.
+> Backend engineer, 5 years. Specialize in payment systems and distributed caching. Genuinely enjoy making systems faster. Best work: reduced payment latency from 8s to 200ms (technical breakdown: blog.example.com/latency). I care about shipping, not perfection, but ship things that work. Open to IC roles, not currently interested in people management.
 
 ---
 
-## Voice Calibration for Academic Writers
+## Voice Calibration for Interview Answers
 
-If analyzing a researcher's sample:
+If analyzing someone's previous interview performance or writing sample:
 
 Look for:
-- **Hedging style** (when do they hedge? Over? Under?)
-- **Use of passive voice** (heavy? Light? Selective?)
-- **Significance language** (careful? Inflated? Restrained?)
-- **How they discuss limitations** (thorough? Dismissive? Balanced?)
-- **Data presentation** (tables? In text? Heavy on stats? Light?)
-- **Citation style** (frequent? Sparse? Integrated or clunky?)
-- **Sentence structure** (formal and long? Short and punchy? Varied?)
+- **How they describe accomplishments** (numbers? Just claims? Middle ground?)
+- **How they handle mistakes** (deflect? Blame? Own it? Learn from it?)
+- **Confidence level** (bragging? Too hedged? Balanced?)
+- **Specificity** (names and projects? Or generic?)
+- **Humor** (dry? Self-deprecating? None?)
+- **How they talk about growth** (defensively? Thoughtfully? Arrogantly?)
 
 **Example calibration:**
-> "This researcher: hedges appropriately (says 'suggests' and 'may' when data warrant it), uses passive voice in methods (standard), careful with significance claims, thorough on limitations, presents data in tables, citations are frequent and smoothly integrated, sentences are formal and long but readable."
+> "This person: owns their mistakes without overdoing it, uses concrete examples, avoids buzz-words, speaks directly, slightly self-deprecating humor, specific about technical details but not numbers."
 
-Match this in rewrites.
-
----
-
-## When Academic Formality Should Remain
-
-Some academic contexts require full formality:
-- **Submitted manuscripts** (journals have standards)
-- **Dissertations** (institutional requirements)
-- **Grant proposals** (formal is expected)
-
-For conference papers, working papers, or presentations to colleagues: You have more freedom. Some of the best academic writing is more casual.
-
----
-
-## The Academic Virtue
-
-Good academic writing is humble about what it found and careful about what it claims. That's not weakness — it's strength.
-
-AI makes academic writing sound important. Humans make it sound true.
-
-Truth matters more.
+Match this in interview prep.
